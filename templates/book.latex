@@ -1,0 +1,169 @@
+% Book LaTeX template for Composing with Virtual Tape Recorders
+% Adapted from Pandoc default template
+\documentclass[$if(fontsize)$$fontsize$,$endif$$if(lang)$$babel-lang$,$endif$$if(papersize)$$papersize$paper,$endif$$for(classoption)$$classoption$$sep$,$endfor$]{$documentclass$}
+
+$if(beamerarticle)$
+\usepackage{beamerarticle} % needs to be loaded first
+$endif$
+
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp}
+\else
+  \ifXeTeX
+    \usepackage{unicode-math}
+    \defaultfontfeatures{Scale=MatchLowercase}
+    \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \else
+    \usepackage{unicode-math}
+    \defaultfontfeatures{Scale=MatchLowercase}
+    \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+  \fi
+\fi
+
+$if(mainfont)$
+  \setmainfont[$for(mainfontoptions)$$mainfontoptions$$sep$,$endfor$]{$mainfont$}
+$endif$
+$if(sansfont)$
+  \setsansfont[$for(sansfontoptions)$$sansfontoptions$$sep$,$endfor$]{$sansfont$}
+$endif$
+$if(monofont)$
+  \setmonofont[$for(monofontoptions)$$monofontoptions$$sep$,$endfor$]{$monofont$}
+$endif$
+
+\usepackage{xcolor}
+\definecolor{NavyBlue}{HTML}{003580}
+\definecolor{CalloutBg}{HTML}{EEF4FB}
+\definecolor{CalloutBorder}{HTML}{2060A0}
+\definecolor{ExerciseBg}{HTML}{F5F5F5}
+
+$if(geometry)$
+\usepackage[$for(geometry)$$geometry$$sep$,$endfor$]{geometry}
+$endif$
+
+\usepackage{hyperref}
+$if(colorlinks)$
+\hypersetup{
+  colorlinks=true,
+  linkcolor=$if(linkcolor)$$linkcolor$$else$Maroon$endif$,
+  filecolor=$if(filecolor)$$filecolor$$else$Maroon$endif$,
+  citecolor=$if(citecolor)$$citecolor$$else$Blue$endif$,
+  urlcolor=$if(urlcolor)$$urlcolor$$else$Blue$endif$,
+}
+$endif$
+
+\usepackage{longtable,booktabs,array}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{tcolorbox}
+\tcbuselibrary{skins,breakable}
+
+% Creative Option callout box
+\newtcolorbox{creativeoption}[1][]{
+  enhanced,
+  breakable,
+  colback=CalloutBg,
+  colframe=CalloutBorder,
+  fonttitle=\bfseries\sffamily,
+  title=Creative Option,
+  #1
+}
+
+% Exercise box
+\newtcolorbox{exercisebox}[1][]{
+  enhanced,
+  breakable,
+  colback=ExerciseBg,
+  colframe=gray!50,
+  fonttitle=\bfseries\sffamily,
+  #1
+}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\textit{Composing with Virtual Tape Recorders}}
+\fancyhead[LO]{\textit{\leftmark}}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\sffamily}
+  {\chaptertitlename\ \thechapter}
+  {20pt}
+  {\Huge}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\sffamily}
+  {\thesection}
+  {1em}
+  {}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\sffamily}
+  {\thesubsection}
+  {1em}
+  {}
+
+% Pandoc-required packages
+\usepackage{calc}
+\usepackage{etoolbox}
+\usepackage{csquotes}
+
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+
+\begin{document}
+
+$if(has-frontmatter)$
+\frontmatter
+$endif$
+
+% Title page
+\begin{titlepage}
+\centering
+\vspace*{3cm}
+{\huge\bfseries\sffamily $title$ \par}
+\vspace{0.5cm}
+{\Large\sffamily $subtitle$ \par}
+\vspace{2cm}
+{\large $author$ \par}
+$if(editor)$
+\vspace{0.5cm}
+{\normalsize\itshape $editor$ \par}
+$endif$
+\vspace{1cm}
+{\large $date$ \par}
+\vfill
+\end{titlepage}
+
+$if(toc)$
+{
+$if(colorlinks)$
+\hypersetup{linkcolor=$if(toccolor)$$toccolor$$else$black$endif$}
+$endif$
+\setcounter{tocdepth}{$toc-depth$}
+\tableofcontents
+}
+$endif$
+
+$if(has-frontmatter)$
+\mainmatter
+$endif$
+
+$body$
+
+$if(has-frontmatter)$
+\backmatter
+$endif$
+
+\end{document}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 160" width="640" height="160" font-family="sans-serif" font-size="13">
+  <!-- Technique J: Panning with LFO -->
+
+  <!-- Simpliciter -->
+  <rect x="20" y="45" width="120" height="60" rx="6" fill="#ffe0cc" stroke="#cc6600" stroke-width="1.5"/>
+  <text x="80" y="70" text-anchor="middle" font-weight="bold" font-size="12">Simpliciter</text>
+  <text x="80" y="88" text-anchor="middle" font-size="11" fill="#555">audio source</text>
+
+  <!-- Arrow to Pan -->
+  <line x1="140" y1="75" x2="210" y2="75" stroke="#333" stroke-width="2" marker-end="url(#arr6)"/>
+
+  <!-- Pan module -->
+  <rect x="210" y="40" width="110" height="80" rx="6" fill="#f0e8ff" stroke="#664499" stroke-width="1.5"/>
+  <text x="265" y="66" text-anchor="middle" font-weight="bold" font-size="12">Pan</text>
+  <text x="265" y="84" text-anchor="middle" font-size="11" fill="#555">L ←→ R</text>
+  <text x="265" y="100" text-anchor="middle" font-size="10" fill="#664499">CV in ↑</text>
+  <text x="265" y="114" text-anchor="middle" font-size="10" fill="#888">Bogaudio PAN</text>
+
+  <!-- LFO -->
+  <rect x="210" y="130" width="110" height="25" rx="4" fill="#e8f8e8" stroke="#336633" stroke-width="1.5"/>
+  <text x="265" y="147" text-anchor="middle" font-size="11" font-weight="bold" fill="#336633">LFO → PAN CV</text>
+  <line x1="265" y1="130" x2="265" y2="120" stroke="#336633" stroke-width="2" marker-end="url(#arr6g)"/>
+
+  <!-- Arrow to Output -->
+  <line x1="320" y1="75" x2="380" y2="75" stroke="#333" stroke-width="2" marker-end="url(#arr6)"/>
+
+  <!-- Audio OUT -->
+  <rect x="380" y="45" width="120" height="60" rx="6" fill="#ddeeff" stroke="#336699" stroke-width="1.5"/>
+  <text x="440" y="70" text-anchor="middle" font-weight="bold" font-size="12">Audio OUT</text>
+  <text x="440" y="88" text-anchor="middle" font-size="11" fill="#555">stereo, moving</text>
+
+  <!-- Optional reverb -->
+  <rect x="520" y="45" width="110" height="60" rx="6" fill="#fff0cc" stroke="#aa8800" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <text x="575" y="70" text-anchor="middle" font-size="11" font-style="italic" fill="#aa8800">+ Reverb</text>
+  <text x="575" y="88" text-anchor="middle" font-size="10" fill="#aa8800">(optional depth)</text>
+  <line x1="500" y1="75" x2="518" y2="75" stroke="#aa8800" stroke-width="1.5" stroke-dasharray="4,2" marker-end="url(#arr6y)"/>
+
+  <defs>
+    <marker id="arr6" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#333"/>
+    </marker>
+    <marker id="arr6g" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#336633"/>
+    </marker>
+    <marker id="arr6y" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#aa8800"/>
+    </marker>
+  </defs>
+</svg>

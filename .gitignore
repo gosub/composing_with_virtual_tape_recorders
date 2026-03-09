@@ -1,0 +1,8 @@
+output/
+*.pdf
+*.html
+*.aux
+*.log
+*.toc
+*.out
+.DS_Store
