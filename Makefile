@@ -1,4 +1,6 @@
-SRCFILES := $(wildcard src/*.md)
+SRCFILES  := $(wildcard src/*.md)
+SVGFILES  := $(wildcard images/diagrams/*.svg)
+PDFIMAGES := $(SVGFILES:images/diagrams/%.svg=images/diagrams/%.pdf)
 OUTDIR    := output
 
 .PHONY: pdf html clean all
@@ -12,19 +14,24 @@ html: $(OUTDIR)/book.html
 $(OUTDIR):
 	mkdir -p $(OUTDIR)
 
-$(OUTDIR)/book.pdf: $(SRCFILES) metadata.yaml templates/book.latex | $(OUTDIR)
+images/diagrams/%.pdf: images/diagrams/%.svg
+	rsvg-convert -f pdf -o $@ $<
+
+$(OUTDIR)/book.pdf: $(SRCFILES) metadata.yaml templates/book.latex filters/divs.lua $(PDFIMAGES) | $(OUTDIR)
 	pandoc metadata.yaml $(SRCFILES) \
 	  -o $@ \
-	  --pdf-engine=xelatex \
+	  --pdf-engine=tectonic \
 	  --template=templates/book.latex \
+	  --lua-filter=filters/divs.lua \
 	  --toc --number-sections \
 	  --resource-path=images \
 	  --highlight-style=tango
 
-$(OUTDIR)/book.html: $(SRCFILES) metadata.yaml | $(OUTDIR)
+$(OUTDIR)/book.html: $(SRCFILES) metadata.yaml filters/divs.lua | $(OUTDIR)
 	pandoc metadata.yaml $(SRCFILES) \
 	  -o $@ \
 	  --standalone --toc --number-sections \
+	  --lua-filter=filters/divs.lua \
 	  --resource-path=images \
 	  --highlight-style=tango \
 	  --css=style.css \

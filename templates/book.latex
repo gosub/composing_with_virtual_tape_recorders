@@ -116,6 +116,9 @@ $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
 
+% pandoc 3.x image-bounding macro
+\providecommand{\pandocbounded}[1]{#1}
+
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 

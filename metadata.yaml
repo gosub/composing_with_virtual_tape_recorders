@@ -16,7 +16,7 @@ linkcolor: NavyBlue
 urlcolor: NavyBlue
 geometry: margin=1in
 fontsize: 11pt
-mainfont: "Linux Libertine O"
-sansfont: "Linux Biolinum O"
+mainfont: "DejaVu Serif"
+sansfont: "DejaVu Sans"
 monofont: "DejaVu Sans Mono"
 ...
