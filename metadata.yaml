@@ -14,7 +14,7 @@ numbersections: true
 colorlinks: true
 linkcolor: NavyBlue
 urlcolor: NavyBlue
-geometry: margin=1in
+geometry: "a4paper, margin=25mm"
 fontsize: 11pt
 mainfont: "DejaVu Serif"
 sansfont: "DejaVu Sans"
