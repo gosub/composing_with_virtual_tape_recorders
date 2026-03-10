@@ -62,8 +62,6 @@ In VCV Rack, floodsound is simply a matter of sending one Simpliciter's output t
 
 Alternatively, use a **VCV Split** module to duplicate the mono signal into two identical copies before routing them to the left and right outputs.
 
-![Technique I — Floodsound patch](images/screenshots/technique-i-floodsound.png)
-
 Floodsound works particularly well with dense, complex textures: a heavily layered superimposition (from Technique E), a rich reverberant sound, a sustained drone with internal movement. These benefit from the immersive quality that two-channel separation provides, because they are not sounds that need localisation — they are sounds that need to fill space.
 
 
