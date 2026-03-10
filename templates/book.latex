@@ -116,8 +116,13 @@ $if(highlighting-macros)$
 $highlighting-macros$
 $endif$
 
-% pandoc 3.x image-bounding macro
-\providecommand{\pandocbounded}[1]{#1}
+% Constrain images to text width/height and define pandoc 3.x bounding macro
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>0.45\textheight 0.45\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\newcommand{\pandocbounded}[1]{#1}
 
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
