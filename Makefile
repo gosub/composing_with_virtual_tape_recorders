@@ -27,7 +27,9 @@ $(OUTDIR)/book.pdf: $(SRCFILES) metadata.yaml templates/book.latex filters/divs.
 	  --resource-path=images \
 	  --highlight-style=tango
 
-$(OUTDIR)/book.html: $(SRCFILES) metadata.yaml filters/divs.lua | $(OUTDIR)
+$(OUTDIR)/book.html: $(SRCFILES) metadata.yaml filters/divs.lua style.css | $(OUTDIR)
+	cp -r images $(OUTDIR)/images
+	cp style.css $(OUTDIR)/style.css
 	pandoc metadata.yaml $(SRCFILES) \
 	  -o $@ \
 	  --standalone --toc --number-sections \
@@ -39,3 +41,4 @@ $(OUTDIR)/book.html: $(SRCFILES) metadata.yaml filters/divs.lua | $(OUTDIR)
 
 clean:
 	rm -f $(OUTDIR)/book.pdf $(OUTDIR)/book.html
+	rm -rf $(OUTDIR)/images
