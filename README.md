@@ -11,77 +11,91 @@ A modern adaptation of Terence Dwyer's *Composing with Tape Recorders: Musique C
 
 ## What This Book Is
 
-Dwyer's 1971 guide is one of the finest introductions to musique concrète ever written: practical, conversational, and grounded in actually *doing* things. This adaptation preserves his 9-chapter structure, his A–L technique lettering, his 58+ exercises, and his artisanal spirit — replacing physical tape recorders with NYSTHI Simpliciter running inside VCV Rack.
+Dwyer's 1971 guide is one of the finest introductions to musique concrète ever written: practical, conversational, and grounded in actually *doing* things. This adaptation preserves his 9-chapter structure, his A–L technique lettering, his 53 exercises, and his artisanal spirit — replacing physical tape recorders with NYSTHI Simpliciter running inside VCV Rack.
 
 Everything you need is free:
 - [VCV Rack](https://vcvrack.com) — free, Windows/Mac/Linux
-- [NYSTHI plugin](https://library.vcvrack.com/?brand=NYSTHI) — free, includes Simpliciter
+- [NYSTHI plugin](https://library.vcvrack.com/?brand=NYSTHI) — free, includes Simpliciter (requires a free VCV account)
 - A computer with a sound card (a proper audio interface recommended but not required)
+
+---
 
 ## Building the Book
 
-### Requirements
+### Recommended: Nix shell
 
-- [Pandoc](https://pandoc.org) ≥ 3.0
-- XeLaTeX (from TeX Live or MiKTeX)
-- Linux Libertine fonts (or edit `metadata.yaml` to use fonts you have)
-
-### Commands
+A `shell.nix` is provided that pulls in all build dependencies automatically:
 
 ```bash
-make pdf    # produces output/book.pdf
-make html   # produces output/book.html
-make clean  # removes output files
+nix-shell --run "make pdf"    # → output/book.pdf
+nix-shell --run "make html"   # → output/book.html
+nix-shell --run "make clean"  # removes output files
 ```
+
+### Manual requirements
+
+- [Pandoc](https://pandoc.org) ≥ 3.0
+- [Tectonic](https://tectonic-typesetting.github.io) (PDF engine, auto-downloads LaTeX packages)
+- `rsvg-convert` from librsvg (converts SVG diagrams to PDF)
+- DejaVu fonts (or edit `metadata.yaml` to use fonts you have)
+
+---
 
 ## Project Structure
 
 ```
-src/                    ← Markdown source chapters
-  00-preface.md
-  01-any-number-can-play.md
-  02-sounds-galore.md
-  03-first-steps.md
-  04-what-are-we-aiming-at.md
-  05-further-techniques.md
-  06-workaday-matters.md
-  07-sounds-in-space.md
-  08-planning-complete-compositions.md
-  09-quo-vadis.md
-  appendices.md
-  glossary.md
+src/                    ← Markdown source chapters (12 files)
 images/
-  diagrams/             ← SVG signal-flow diagrams
-  screenshots/          ← VCV Rack patch screenshots (to be added)
+  diagrams/             ← SVG signal-flow diagrams (10 SVGs)
+  screenshots/          ← VCV Rack patch screenshots (10 PNGs)
+filters/
+  divs.lua              ← Lua filter: Creative Option boxes + SVG→PDF paths
 templates/
   book.latex            ← Custom Pandoc/XeLaTeX template
-metadata.yaml           ← Pandoc document metadata
-Makefile                ← Build system
+style.css               ← Stylesheet for HTML output
+metadata.yaml           ← Title, author, fonts, paper size
+shell.nix               ← Nix build environment
+Makefile                ← pdf / html / clean targets
 ```
+
+---
 
 ## Technique Mapping
 
 | Technique | Original | VCV Rack / Simpliciter |
 |-----------|----------|------------------------|
 | A | Straight Recording | Simpliciter REC mode |
-| B | Mic Placement & Volume | Audio-8 input gain, VCA |
+| B | Mic Placement & Volume | Audio module input gain, VCA |
 | C | Speed Change | Simpliciter SPEED knob + V/Oct CV |
 | D | Reversal | Simpliciter REVERSE mode |
 | E | Superimposition | Multiple Simpliciters → Mixer |
 | F | Loops | Simpliciter LOOP modes |
-| G | Editing | Simpliciter START/END markers + DAW |
+| G | Editing | Simpliciter START/END markers + DAW sidecar |
 | H | Two-Channel Separate | L/R signals → Stereo Audio OUT |
-| I | Floodsound | Split signal → both L+R |
+| I | Floodsound | Mono signal → both L+R channels |
 | J | Two-Channel Combined | Pan module with LFO CV |
 | K | Floodsound Plus | J + static layer |
 | L | Echo | Chronoblob2 or any delay module |
 
-## Screenshots
-
-Screenshots in `images/screenshots/` are placeholders pending actual VCV Rack patch photography. The filenames correspond to references in the text.
+---
 
 ## Acknowledgements
 
 This work is deeply indebted to Terence Dwyer's original book, which deserves far wider recognition. The philosophy, structure, exercises, and conversational tone of this adaptation are all his. Only the tools have changed.
 
 The original retypeset LaTeX source is at `../composing_with_tapes_retypeset/`.
+
+---
+
+## Changelog
+
+### v0.2 — 2026-03-11
+- Clarified NYSTHI installation steps: free VCV account required; subscribe at library.vcvrack.com; use **Update all** inside VCV Rack (fixes #1)
+
+### v0.1 — 2026-03-10
+- Initial release: all 12 chapters written, 53 exercises, 12 techniques A–L
+- 10 SVG signal-flow diagrams
+- 10 VCV Rack patch screenshots
+- HTML output with stylesheet
+- PDF output via Pandoc + Tectonic (A4, DejaVu fonts)
+- GitHub Actions workflow: PDF release on version tag
