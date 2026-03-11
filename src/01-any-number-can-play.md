@@ -12,7 +12,7 @@ To follow this book, you need three things.
 
 **Second**: **VCV Rack**, the free, open-source modular synthesizer software. Download it from [vcvrack.com](https://vcvrack.com). The free version — called VCV Rack 2 Free — is everything you need. (There is also a paid Pro version aimed at professional studio integration; ignore it for now.)
 
-**Third**: the **NYSTHI plugin pack**, which contains the Simpliciter module that serves as our virtual tape recorder throughout this book. Install it through the VCV Library: open VCV Rack, go to the Library menu, search for "NYSTHI", and click Install. The whole collection is free.
+**Third**: the **NYSTHI plugin pack**, which contains the Simpliciter module that serves as our virtual tape recorder throughout this book. To install it, first create a free account at [vcvrack.com](https://vcvrack.com), then log in inside VCV Rack via the Library menu. Go to [library.vcvrack.com](https://library.vcvrack.com), search for **NYSTHI**, and subscribe — you can subscribe to the whole NYSTHI collection at once, or add individual modules. Back in VCV Rack, open the Library menu and click **Update all** to sync your subscriptions. The whole NYSTHI collection is free.
 
 For audio input — recording sounds from the real world — you'll need a microphone. A built-in laptop microphone is sufficient for early experiments. An external USB microphone is better. A proper condenser microphone connected through an audio interface is better still. But start with what you have.
 

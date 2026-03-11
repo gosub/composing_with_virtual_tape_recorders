@@ -140,7 +140,7 @@ A single-page guide for your first session. Read this before opening the softwar
 Go to [vcvrack.com](https://vcvrack.com) and download VCV Rack 2 Free for your operating system (Windows, Mac, or Linux). Install it and open it.
 
 **2. Install the NYSTHI plugin**
-In VCV Rack, go to the **Library** menu and select **Manage Plugins**. You'll be prompted to log in or create a free VCV account. Once logged in, search for **NYSTHI** and click Install. After installation, restart VCV Rack.
+Create a free account at [vcvrack.com](https://vcvrack.com) if you haven't already, then log in inside VCV Rack via the **Library** menu. Go to [library.vcvrack.com](https://library.vcvrack.com), search for **NYSTHI**, and subscribe — either to the whole collection or to individual modules. Back in VCV Rack, open the **Library** menu and click **Update all** to sync. Restart VCV Rack.
 
 **3. Create a new patch**
 From the File menu, select **New**. You'll see a blank canvas.
