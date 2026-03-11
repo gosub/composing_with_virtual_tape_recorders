@@ -83,8 +83,6 @@ Makefile                ← pdf / html / clean targets
 
 This work is deeply indebted to Terence Dwyer's original book, which deserves far wider recognition. The philosophy, structure, exercises, and conversational tone of this adaptation are all his. Only the tools have changed.
 
-The original retypeset LaTeX source is at `../composing_with_tapes_retypeset/`.
-
 ---
 
 ## Changelog
