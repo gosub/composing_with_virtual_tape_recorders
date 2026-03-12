@@ -9,10 +9,10 @@ pkgs.mkShell {
   ];
 
   shellHook = ''
-    echo "Build environment ready."
-    echo "  pandoc:   $(pandoc --version | head -1)"
-    echo "  tectonic: $(tectonic --version)"
-    echo ""
-    echo "Run 'make pdf' or 'make html' to build."
+    echo "Build environment ready." >&2
+    echo "  pandoc:   $(pandoc --version | head -1)" >&2
+    echo "  tectonic: $(tectonic --version)" >&2
+    echo "" >&2
+    echo "Run 'make pdf' or 'make html' to build." >&2
   '';
 }

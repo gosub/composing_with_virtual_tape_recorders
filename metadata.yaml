@@ -1,8 +1,8 @@
 ---
 title: "Composing with Virtual Tape Recorders"
 subtitle: "Musique Concrète for Beginners, with VCV Rack"
-author: "Terence Dwyer"
-editor: "Adapted for VCV Rack by Giampaolo Guiducci and Claude Sonnet 4.6"
+after: "Terence Dwyer's *Composing with Tape Recorders* (OUP, 1971)"
+adaptedby: "Giampaolo Guiducci and Claude Sonnet 4.6"
 date: "2026"
 documentclass: book
 classoption:

@@ -2,8 +2,8 @@
 
 *Musique Concrète for Beginners, with VCV Rack*
 
-**Original author:** Terence Dwyer
-**Adapted for VCV Rack by:** Giampaolo Guiducci and Claude Sonnet 4.6
+After Terence Dwyer's *Composing with Tape Recorders* (OUP, 1971)
+Adapted by Giampaolo Guiducci and Claude Sonnet 4.6
 
 A modern adaptation of Terence Dwyer's *Composing with Tape Recorders: Musique Concrète for Beginners* (Oxford University Press, 1971), updated for the VCV Rack software modular synthesizer platform.
 
@@ -86,6 +86,11 @@ This work is deeply indebted to Terence Dwyer's original book, which deserves fa
 ---
 
 ## Changelog
+
+### v0.3 — 2026-03-12
+- Fix title page attribution: replace `author` field with "After Terence Dwyer's…" and "Adapted by…" formula in both PDF and HTML
+- Add custom HTML template (`templates/book.html`) to render `after`/`adaptedby` metadata fields
+- Fix shell.nix shellHook output: redirect to stderr to prevent contaminating build artefacts
 
 ### v0.2 — 2026-03-11
 - Clarified NYSTHI installation steps: free VCV account required; subscribe at library.vcvrack.com; use **Update all** inside VCV Rack (fixes #1)

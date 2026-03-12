@@ -144,11 +144,9 @@ $endif$
 \vspace{0.5cm}
 {\Large\sffamily $subtitle$ \par}
 \vspace{2cm}
-{\large $author$ \par}
-$if(editor)$
+{\normalsize\itshape After $after$ \par}
 \vspace{0.5cm}
-{\normalsize\itshape $editor$ \par}
-$endif$
+{\normalsize Adapted by $adaptedby$ \par}
 \vspace{1cm}
 {\large $date$ \par}
 \vfill

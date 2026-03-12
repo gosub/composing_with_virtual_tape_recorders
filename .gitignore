@@ -1,6 +1,7 @@
 output/
 *.pdf
 *.html
+!templates/*.html
 *.aux
 *.log
 *.toc
