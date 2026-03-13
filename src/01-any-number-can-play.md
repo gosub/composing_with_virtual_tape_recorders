@@ -1,6 +1,6 @@
 # Any Number Can Play
 
-Composing with a virtual tape recorder is a fascinating new musical adventure — and you are invited. It doesn't matter whether you can read music or play an instrument. It doesn't matter whether you've studied harmony or acoustics or signal processing. What matters is that you have ears, curiosity, and access to a reasonably modern computer. The computer is your studio. The software is free. The sounds are everywhere.
+Composing with a virtual tape recorder is a fascinating new musical adventure, and you are invited. It doesn't matter whether you can read music or play an instrument. It doesn't matter whether you've studied harmony or acoustics or signal processing. What matters is that you have ears, curiosity, and access to a reasonably modern computer. The computer is your studio. The software is free. The sounds are everywhere.
 
 This is not a casual reassurance. Musique concrète — the art of making music from recorded, manipulated sounds — was invented by people who were deliberately trying to escape the gatekeeping of traditional music. Pierre Schaeffer, who coined the term in Paris in 1948, was a radio engineer, not a trained composer. He made his first pieces on a turntable, using shellac discs with the grooves cut so that the needle would loop endlessly. He was, in the best sense, mucking about. This book gives you permission to do the same.
 
@@ -18,14 +18,34 @@ For audio input — recording sounds from the real world — you'll need a micro
 
 In the original *Composing with Tape Recorders*, Terence Dwyer described an "ideal" studio (a reel-to-reel tape deck, a mixer, a microphone, some effects units) and a "minimum" setup (a single tape recorder with a built-in microphone). The same hierarchy applies here. The ideal VCV Rack setup might include a dedicated audio interface, a good microphone, and a collection of effects modules. The minimum is a laptop with its built-in microphone and two free software downloads. Both will get you making music.
 
+::: {.creative-option}
+**No microphone? No problem.**
+
+You don't strictly need to record your own sounds. Sites like [Freesound](https://freesound.org) offer thousands of freely licensed audio files — field recordings, instruments, found sounds — that you can download and play through a sample player module wired into Simpliciter's input. You can also download audio from video platforms using any of the many free tools available for that purpose.
+
+That said, recording your own sounds is more fun, more personal, and more in the spirit of what this book is about. A built-in laptop microphone, pointed at something interesting, is all you need to start.
+:::
+
+### First Launch: The Default Patch
+
+When you first open VCV Rack, you won't see a blank canvas. VCV Rack starts with a default template patch: a polyphonic subtractive synthesizer playable from your computer keyboard or a MIDI controller. Before doing anything else, click on the **Audio** module and select your audio output device from the dropdown. Then press a few keys. You now have a working synthesizer.
+
+Feel free to play with it for a while. It's a good introduction to how VCV Rack feels and sounds. When you're ready to move on, clear the canvas: go to **Edit > Select All**, then **Edit > Delete** (or drag a selection box around all the modules and press **Backspace**). You'll be left with an empty rack, ready to build your own patch from scratch.
+
 ### Your Starter Patch
 
-When you first open VCV Rack, you'll see a blank canvas. For now, build this simple signal chain:
+To add a module to the empty rack, right-click on any empty space to open the module browser. Search by name or browse by category.
 
-1. Add an **Audio** module (from the VCV Fundamental pack, which comes pre-installed). This is your connection to your computer's sound card — both input and output.
+To connect two modules, click on any jack (the small circular connectors on the face of each module) and, while holding the mouse button down, drag to another jack. Release to make the connection. A coloured cable will appear between them. To disconnect, click the cable at either end and drag it away.
+
+One useful convention visible on the Audio module: the jacks with a **black background** are labelled outputs — the module outputs the microphone signal from them into your patch. The jacks with a **white background** are labelled inputs — they receive signal from your patch and send it to your speakers or headphones. Both pairs are simply labelled **LEFT** and **RIGHT**.
+
+Now build this simple signal chain:
+
+1. Add an **Audio** module (from the VCV Fundamental pack, which comes pre-installed). This is your connection to your computer's sound card — both input and output. Click it and select your audio device if you haven't already.
 2. Add a **NYSTHI Simpliciter** module.
-3. Connect the Audio module's **OUT 1** and **OUT 2** jacks to Simpliciter's **IN L** and **IN R** jacks.
-4. Connect Simpliciter's **OUT L** and **OUT R** jacks back to the Audio module's **IN 1** and **IN 2** jacks.
+3. Connect the Audio module's black-background **LEFT** and **RIGHT** jacks (microphone signal) to Simpliciter's **IN L** and **IN R** jacks.
+4. Connect Simpliciter's **OUT L** and **OUT R** jacks to the Audio module's white-background **LEFT** and **RIGHT** jacks (to your speakers).
 
 ![Signal flow diagram](images/diagrams/starter-patch-signal-flow.svg)
 
@@ -37,7 +57,7 @@ More modules mean more possibilities — you can add filters, oscillators, effec
 
 ## Nature of Virtual Tape Music
 
-Musique concrète is music made from recorded sound. Not synthesised tones generated mathematically, not MIDI notes triggering samples in the traditional sense — but actual sound recordings, treated as raw material to be cut, shaped, reversed, layered, and transformed until they become something new.
+Musique concrète is music made from recorded sound: not synthesised tones generated mathematically, not MIDI notes triggering samples in the traditional sense, but actual sound recordings, treated as raw material to be cut, shaped, reversed, layered, and transformed until they become something new.
 
 When Schaeffer and his collaborators made their first pieces, the transformation happened physically: slowing a disc down changed its pitch; playing tape backwards revealed hidden textures; splicing two recordings together created juxtapositions that neither sound could achieve alone. The process was laborious and irreversible. A splice, once made, was permanent until you cut it apart again.
 
