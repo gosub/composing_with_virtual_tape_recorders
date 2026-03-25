@@ -79,6 +79,27 @@ Makefile                ← pdf / html / clean targets
 
 ---
 
+## Review Progress
+
+Paragraph-by-paragraph review against Dwyer's original, with corrections and additions.
+
+| Chapter | Status |
+|---------|--------|
+| 0 — Preface | ✅ Complete |
+| 1 — Any Number Can Play | ✅ Complete |
+| 2 — Sounds Galore | ✅ Complete |
+| 3 — First Steps | 🔄 In progress |
+| 4 — What Are We Aiming At? | ⬜ Not started |
+| 5 — Further Techniques | ⬜ Not started |
+| 6 — Workaday Matters | ⬜ Not started |
+| 7 — Sounds in Space | ⬜ Not started |
+| 8 — Planning Complete Compositions | ⬜ Not started |
+| 9 — Quo Vadis? | ⬜ Not started |
+| Appendices | ⬜ Not started |
+| Glossary | ⬜ Not started |
+
+---
+
 ## Acknowledgements
 
 This work is deeply indebted to Terence Dwyer's original book, which deserves far wider recognition. The philosophy, structure, exercises, and conversational tone of this adaptation are all his. Only the tools have changed.
