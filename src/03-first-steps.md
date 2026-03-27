@@ -4,17 +4,17 @@ This chapter is about getting sound into Simpliciter, and then doing interesting
 
 ## Technique A — Straight Recording
 
-The first thing to master is making Simpliciter capture a sound faithfully. Before you worry about manipulation, you need to trust the machine. A good straight recording is the raw material for everything that follows.
+The first thing to master is making Simpliciter capture a sound faithfully. Before you worry about manipulation, you need to trust the machine. A good straight recording is the raw material for everything that follows. Knowing what a faithful recording sounds like is also what tells you, later, how far you have departed from it. Besides, if a sound has fascinated you, you want to be sure you can actually catch it.
 
 If you built the starter patch from Chapter 1, you already have everything you need: the Audio module connected to Simpliciter, and Simpliciter routed back to your speakers. If not, go back to Chapter 1 and set it up now.
 
 Here is the recording process, step by step.
 
-**1. Check your signal.** Make a sound near your microphone. Simpliciter's waveform display should show activity. If it doesn't, check that the Audio module has the correct device selected and that cables are routed from its output jacks to Simpliciter's IN jacks.
+**1. Check your signal.** Make a sound near your microphone. The ring of the Audio module's output jack should glow yellow, with brightness proportional to the signal level. This is visible even with a cable attached. If you want a more detailed view, add a **Scope** module (from the VCV Fundamental pack) and connect the Audio output to it. If you see no signal, check that the Audio module has the correct device selected and that cables are routed to Simpliciter's IN jacks.
 
-**2. Record.** On the Simpliciter panel, find the **REC** button. Click it to begin recording. The waveform display will start filling as audio comes in. Click REC again to stop.
+**2. Record.** On the Simpliciter panel, find the **REC** button. Click it to begin recording. The waveform display will start filling as audio comes in. Click REC again to stop. By default, Simpliciter will immediately start playing back what you just recorded — so you'll hear your sound right away.
 
-**3. Play it back.** Press the PLAY button. Your sound plays back through Simpliciter's OUT jacks and into your speakers via the Audio module. If it sounds like what you recorded, you've mastered Technique A. That's it.
+One important difference from a physical tape recorder: once you stop recording in Simpliciter, you cannot continue recording in the same take. You can only overwrite what is there or record on top of it (sound-on-sound). If you need to capture sounds in sequence as separate takes, use a separate Simpliciter for each one. A more advanced approach is to use two Simpliciters in series: play the first without looping and connect its EOC (End of Cycle) output to trigger recording on the second.
 
 One important practical note: Simpliciter does not automatically save your recordings. If you close VCV Rack, anything you recorded is lost. To keep a recording, right-click on Simpliciter's panel and select **Save Wav File...**. Choose a location and filename. To reload it later, right-click again and select **Open Wav or Aiff File...**. Make a habit of saving recordings you want to keep, especially before closing your patch.
 
@@ -23,7 +23,7 @@ One important practical note: Simpliciter does not automatically save your recor
 ![Signal flow: Audio → Simpliciter → Output](images/diagrams/technique-a.svg)
 
 ::: {.creative-option}
-**Tape Saturation**: Real tape recorders saturated when recorded too hot, producing a warm, slightly compressed sound that many producers still chase today with expensive plugins. In VCV Rack, you can get something similar by patching your audio through NYSTHI Console (or any saturator module) before it reaches Simpliciter's IN jack. Push the input gain just past the sweet spot and you'll hear the transients soften and the body of the sound fill out. It doesn't sound broken. It sounds *warm*. Whether you want that warmth on a given recording is a creative decision, but it's worth knowing it's there.
+**Tape Saturation**: Real tape recorders saturated when recorded too hot, producing a warm, slightly compressed sound that many producers still chase today with expensive plugins. In VCV Rack, you can get something similar with [ChowDSP ChowTape](https://library.vcvrack.com/ChowDSP/ChowTape), a free module that models the behaviour of magnetic tape. Patch your audio through it before it reaches Simpliciter's IN jack. You'll hear the transients soften and the body of the sound fill out. It doesn't sound broken. It sounds *warm*. Whether you want that warmth on a given recording is a creative decision, but it's worth knowing it's there.
 :::
 
 ### Exercise 1
@@ -32,7 +32,7 @@ One important practical note: Simpliciter does not automatically save your recor
 
 Take a sheet of paper and divide it into 96 squares: eight columns across, twelve rows down. Label the four leftmost columns: **Tones**, **Mistones**, **Pseudotones**, **Sones**. (If those words are unfamiliar, they're explained properly in Chapter 2: briefly, Tones are sounds with clear pitch, Mistones are sounds with approximate or unstable pitch, Pseudotones are sounds that suggest pitch without quite having it, and Sones are unpitched sounds.) The rows represent varying durations and characters: short, long, sharp attack, slow fade, and so on.
 
-Fill the leftmost square in each row with a description of a sound source you can record: your voice, keys rattling, a fan, a door hinge, a spoon on a glass. Then go and record them. Use Simpliciter for each one and save each recording as a separate wav file (right-click > **Save Wav File...**) so you can return to them later.
+Fill the leftmost square in each row with a description of a sound source you can record: your voice, keys rattling, a fan, a door hinge, a spoon on a glass. Then go and record them. For each sound, record it three times before moving on — repetition helps you get a clean take and gives you options. It's also useful to announce the number of each sound before recording it, so you can identify recordings later without guesswork. Save each recording as a separate wav file (right-click > **Save Wav File...**), using the number as part of the filename (e.g. `01-voice-short-high.wav`) so you can match files back to your grid later.
 
 The goal is 48 sounds across as many of the 96 categories as you can fill. Don't rush.
 
@@ -46,47 +46,67 @@ Dwyer spent considerable time on microphone placement because on a tape recorder
 
 There are four basic placement positions worth knowing:
 
-**Close**: the microphone is very near the sound source, a few centimetres away. You hear the detail, the breath, the texture. Loud sounds can overload the input at this distance.
+**Close** (up to about 20 cm): the microphone is very near the sound source. You hear the detail, the breath, the texture. Normally used for very quiet sounds that would otherwise get lost; loud sounds can overload the input at this distance.
 
-**Normal**: a conversational distance, perhaps half a metre to a metre away. The sound is balanced. This is the default.
+**Normal** (roughly 60 cm to 4 metres): a conversational distance. The sound is balanced. This is the default.
 
-**Reverb**: the microphone is positioned to catch the room's acoustic response as much as the direct sound, across a large room, in a corridor, or facing a hard wall at a distance. The reverb is physically real and therefore has a particular character no plugin can quite replicate.
+**Reverb**: the microphone is positioned to catch the room's acoustic response as much as the direct sound, in a corridor, a bathroom, or a large empty room. Avoid carpeted rooms for this effect. The reverb is physically real and therefore has a particular character no plugin can quite replicate.
 
-**Muffled**: something is placed between the sound source and the microphone, a piece of cloth, a cushion, your hand. The high frequencies are absorbed and the result is a dark, underwater character.
+A possible substitute for reverb conditions, suggested by Dwyer, is placing the microphone inside a piano with the sustain pedal held down. The strings pick up and prolong sounds to some extent. Results depend on the type of sound and microphone, but it's a technique worth trying if you have a piano available.
 
-In VCV Rack, gain staging is handled in two places. The Audio module has an input gain adjustment (right-click for options on some builds, or use the trim knob if visible). Before the signal reaches Simpliciter, you can also insert a VCA module (a Fundamental VCA works fine) and use its level knob as a precise input trim.
+**Muffled**: something is placed between the sound source and the microphone, a coat, several thick cloths, or try placing the microphone inside a closed drawer or wardrobe. The high frequencies are absorbed and the result is a dark, underwater character.
+
+When Dwyer talks about volume, he means the final volume of the recording, not the volume of the sound source. It is your job to balance three factors: the volume of the source, the gain of the signal chain, and the microphone placement. All three interact, and adjusting any one of them changes the result.
+
+In VCV Rack, gain control between the Audio module and Simpliciter is done with additional modules. To reduce the signal level, insert a Fundamental VCA and drag its interactive VU meter to set the level. To amplify a weak signal, use a **Befaco A\*B+C**, which can boost gain up to 2x. The Audio module itself has no gain control.
 
 To monitor levels, you can patch the signal through a Fundamental Scope module running in parallel, which gives you a real-time visual of the waveform. But don't rely on meters and scopes alone. Use headphones. The most important monitor is your ear: does the recording *sound* right? A meter can tell you a signal is present, but only listening can tell you whether it's the recording you wanted.
 
 ::: {.creative-option}
-**Room Reverb**: Dwyer notes that recording in a corridor or bathroom gives reverb you can't easily manufacture. That's true, and if you have a bathroom available, use it. But you can also manufacture it digitally: patch Simpliciter's OUT through Valley Plateau (or Befaco Spring Reverb, or Vult Freak in reverb mode) and route that processed signal into a second Simpliciter's IN, then record the wet signal. The reverb becomes *baked in* to the new recording, exactly as it would on tape. Dwyer would have recognised this two-machine technique immediately. The difference is that your second "tape machine" costs nothing and takes up no desk space.
+**Room Reverb**: Dwyer notes that recording in a corridor or bathroom gives reverb you can't easily manufacture. That's true, and if you have a bathroom available, use it. But you can also manufacture it digitally: patch Simpliciter's OUT through a reverb module — Valley Plateau, Befaco Spring Reverb, or any of the reverb effects from the Surge XT plugin are all good choices and route that processed signal into a second Simpliciter's IN, then record the wet signal. The reverb becomes *baked in* to the new recording, exactly as it would on tape. Dwyer would have recognised this two-machine technique immediately. The difference is that your second "tape machine" costs nothing and takes up no desk space.
 :::
 
 ### Exercise 2
 
 *(40 seconds)*
 
-Record the same sound (your voice saying a single word, or a single hand clap) four times in a row, as four separate Simpliciter recordings: Close soft, Close loud, Reverb soft, Reverb loud. Save each as a wav file. Play them back in sequence. The differences in character should be striking even with the same source material.
+Record the following sounds in sequence, saving each as a separate wav file:
+
+- Close, soft then loud: breathing
+- Close, soft then loud: hitting a box
+- Reverb, soft then loud: clapping
+- Reverb, soft then loud: singing
+- Muffled: piano (loud), drum (medium), triangle (soft)
+
+Play them back in sequence. The differences in character should be striking even across similar source materials.
 
 ### Exercise 3
 
-*(80 seconds)*
+*(40 seconds)*
 
-Make a short two-section piece. The first section: a soft, muffled tremolo, something that oscillates quietly, recorded with cloth over the microphone or at a heavy angle away from the source. The second section: a long, loud reverb recording, voice or instrument in a reflective space, or processed through a reverb unit. Arrange the two sections back-to-back in Simpliciter (or in a DAW if you're using one) without any transition. The abruptness is part of the piece.
+Make a piece in two sections without a break:
+
+- Section 1: soft and muffled, tremolo
+- Section 2: loud and reverb, long
 
 ### Exercise 4
 
-*(80 seconds)*
+*(40 seconds)*
 
-Reverse the character of Exercise 3. Open with the loud reverb material, close with the soft muffled tremolo. The same two recordings, different order. Notice how the meaning changes.
+Make a similar piece in two sections:
+
+- Section 1: loud and muffled, short
+- Section 2: soft and reverb, fading
 
 ### Exercise 5
 
 *(80 seconds)*
 
-Record a continuous sustained sound: a bowed string, a held voice tone, a fan, anything that can sustain. Play it back through Simpliciter and route Simpliciter's OUT through a VCA. Now draw a CV automation curve (using VCV Rack's CV-MAP or a simple Fundamental LFO with an attack/decay shape) that creates a slow crescendo from silence to full volume, then a diminuendo back to silence. The goal is a smooth dynamic arc, the kind that is almost impossible to achieve with a single microphone recording but trivially easy with volume automation. Dwyer had to re-record to achieve this effect. You don't.
+Set up a long or tremolo sound running continuously — an alarm clock, a sustained voice, a fan. Route it through a Fundamental VCA and automate the VCA level using CV-MAP or a slow LFO. Record the result into a second Simpliciter. Work through the following sequence: crescendo from silence to maximum in 10 seconds, then diminuendo back in 10 seconds; repeat in 8 seconds each way, then 5, then 3, then 1, then move the control as fast as you can. Listen to the result.
 
 *Note: The distinction between altering the recording itself and altering its playback level is important and comes up repeatedly in this book. Technique B is about recording level; what you're doing in Exercise 5 is playback shaping. Both matter, and they're different tools.*
+
+*The purpose of Exercises 2–5 is the development of an appreciation for contrast. Contrast is the basis of all musical composition. Begin now deciding which kinds of contrast appeal to you.*
 
 ---
 
