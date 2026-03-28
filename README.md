@@ -88,7 +88,7 @@ Paragraph-by-paragraph review against Dwyer's original, with corrections and add
 | 0 — Preface | ✅ Complete |
 | 1 — Any Number Can Play | ✅ Complete |
 | 2 — Sounds Galore | ✅ Complete |
-| 3 — First Steps | 🔄 In progress |
+| 3 — First Steps | ✅ Complete |
 | 4 — What Are We Aiming At? | ⬜ Not started |
 | 5 — Further Techniques | ⬜ Not started |
 | 6 — Workaday Matters | ⬜ Not started |
@@ -107,6 +107,16 @@ This work is deeply indebted to Terence Dwyer's original book, which deserves fa
 ---
 
 ## Changelog
+
+### v0.4 — 2026-03-28
+- Ch 0–3 paragraph-by-paragraph review against Dwyer original
+- Fix Simpliciter recording workflow (no auto-save, no arming step, VARISPEED not REVERSE button)
+- Fix gain staging (Befaco A*B+C for amplification, Fundamental VCA for reduction)
+- Fix mic placement descriptions with correct distances
+- Add onomatopoeics list (Ch 2), bagpipe anecdote (Ch 3), piano reverb tip (Ch 3)
+- Replace NYSTHI Console with ChowDSP ChowTape for tape saturation
+- Add NYSTHI TapeControl for wow/inertia
+- Add review progress table to README
 
 ### v0.3 — 2026-03-12
 - Fix title page attribution: replace `author` field with "After Terence Dwyer's…" and "Adapted by…" formula in both PDF and HTML
