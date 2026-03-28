@@ -114,7 +114,7 @@ Set up a long or tremolo sound running continuously — an alarm clock, a sustai
 
 This is where things start to sound strange in interesting ways.
 
-Simpliciter's **SPEED knob** controls the playback rate. At the centre position, the knob is at 1x, normal speed. Turn it clockwise and the playback accelerates: the sound gets shorter and its pitch rises. Turn it anticlockwise and playback slows: the sound stretches out and its pitch drops. The relationship between speed and pitch is exactly what you'd expect from a tape recorder running faster or slower: they are inseparable, at least with this technique. (Granular pitch-shifting, which separates the two, comes later.)
+Simpliciter's **VARISPEED** knob controls the playback rate. The neutral position (1x, normal speed) is at roughly the 3 o'clock position, not at the centre. Turn it clockwise and the playback accelerates: the sound gets shorter and its pitch rises. Turn it anticlockwise and playback slows: the sound stretches out and its pitch drops. The relationship between speed and pitch is exactly what you'd expect from a tape recorder running faster or slower: they are inseparable, at least with this technique. (Granular pitch-shifting, which separates the two, comes later.)
 
 The **V/Oct CV input** on Simpliciter extends this considerably. If you patch a CV voltage to this input, you can control the playback pitch in semitone steps, exactly as a keyboard CV would control a synthesiser oscillator. Patch a sequencer to this input and you can play your recording as if it were a note in a scale. Patch an LFO to it and you get a vibrato-like pitch wobble. The recording becomes an instrument.
 
@@ -129,33 +129,46 @@ Dwyer listed six specific consequences of halving or doubling playback speed on 
 
 These six consequences are not problems to be solved. They are materials to be used.
 
+A note on terminology: use the word *speed* to mean the playback rate of the sampler, and the word *tempo* to mean the rate of the musical events recorded on it. The two are related but distinct. When you halve the speed, the tempo slows too — but it is useful to keep the concepts separate, especially when working with rhythmic material.
+
+Speed change is the most important technique the virtual tape composer possesses. Use it freely to create new sounds and to render familiar ones unrecognisable. The effect can be startling: to hear a child's descant recorder transformed into a deep, powerful note like an organ pedal, shifted four or five octaves lower, is an awe-inspiring experience. In most situations a change of one octave is quite sufficient for good results.
+
+::: {.creative-option}
+**Wow and Tape Inertia**: On physical tape recorders, slight mechanical irregularities in the transport caused slow pitch wavering (wow), and the mass of the tape reels introduced inertia — the machine took time to reach full speed and to stop. Simpliciter plays back at a perfectly stable rate with instant response, so these characteristics are absent by default. If you want them, place the companion module **NYSTHI TapeControl** directly next to Simpliciter on your rack — it adds wow and tape inertia controls. Subtle settings can add an organic warmth; extreme settings produce the seasick pitch drift of a struggling tape machine.
+:::
+
 ![Technique C — Speed Change patch with CV control](images/screenshots/technique-c-speed-change.png)
 
 ![Signal flow: Speed CV → Simpliciter SPEED](images/diagrams/technique-c.svg)
 
 ### Exercise 6
 
-*(40 seconds)*
-
-Take a recording from Exercise 1 (choose one with clear pitch if you have one). Play it back at half speed. Then at double speed. Write down one observation about each that you didn't anticipate.
+Play back your recordings from Exercise 1 at half speed, then at double speed. Listen critically and decide whether each sound is interesting or not particularly useful to you. Write your comments in the blank squares of your grid opposite each entry. When listening, you may find it difficult to identify some sound sources immediately: those are likely to prove the most useful in the future.
 
 ### Exercise 7
 
-*(80 seconds)*
+*(5 seconds)*
 
-Record a short spoken phrase: your name, a line of poetry, a sentence you like. Play it back at half speed. At what point does it stop sounding like speech and start sounding like something else? Mark that point on Simpliciter's speed knob. That boundary is interesting creative territory.
+Make an ascending scale of six different pitches, all produced from hands and feet Sones: claps, stamps, finger snaps, slaps. Use Simpliciter's VARISPEED to arrange them in ascending order. You are not trying to produce a scale in tune with a piano, merely six different pitches from low to high.
 
 ### Exercise 8
 
-*(80 seconds)*
+*(40 seconds)*
 
-Patch a simple stepped CV sequence (use a Fundamental SEQ-3 or any sequencer you have available) to Simpliciter's V/Oct input. Use a recording that has a clear sustained tone, a hummed note, a bowed string. Play the sequence and listen to your recording transposed across a scale. You are, at this point, playing the recording as an instrument. This is musique concrète meeting something closer to electronic music composition. It doesn't have to stay there, but it's useful to know the territory is adjacent.
+Compose a two-section piece:
+
+- Section 1: long Tones and fading Mistones (all soft, low, slow)
+- Section 2: short Sones and Pseudotones (all loud, fast, high)
+
+Both sections must use sounds recorded at two different VARISPEED settings. Allow for this when recording: the final playback speed will affect duration, pitch, and character.
+
+*The purpose of Exercises 7 and 8 is the gaining of experience in basic technique. If you are not satisfied that your results fit the given conditions, keep trying.*
 
 ---
 
 ## Technique D — Reversal
 
-Press the **REVERSE button** on Simpliciter while in PLAY mode. The playhead now runs backwards through the recording. That's all it takes.
+To play a recording in reverse in Simpliciter, turn the **VARISPEED** knob further counterclockwise, past the zero point. The playback direction reverses. That's all it takes.
 
 What that simple reversal does to sound, however, is remarkable. The attack and decay of every sound are swapped. A sound that began with a sharp percussive strike and decayed slowly now begins with a slow swell from nothing and ends with a sudden cutoff, the opposite of what the ear expects. A piano note, which has an immediate attack and a long decay, reversed sounds uncannily like an organ or a bowed string. A word spoken forwards becomes a syllable that seems to arrive from underwater. A door slamming reversed sounds like a door opening very quickly from far away.
 
@@ -163,42 +176,55 @@ Dwyer was enthusiastic about reversal because it could transform utterly familia
 
 The microwave you recorded an hour ago becomes, reversed, something you have never heard before.
 
-In Simpliciter, reversal can also be controlled by a CV input: a gate signal can switch direction on and off in real time, which opens up possibilities for alternating forward and backward playback mid-phrase. We'll return to that in a later chapter. For now, use the button.
+In Simpliciter, reversal is controlled by the VARISPEED knob. If you want to switch direction with a CV signal in real time, use the companion module NYSTHI TapeControl, which accepts a gate input to toggle playback direction. This opens up possibilities for alternating forward and backward playback mid-phrase. We'll return to that in a later chapter.
 
 ![Technique D — Reversal](images/screenshots/technique-d-reversal.png)
 
 ::: {.creative-option}
-**Delay/Echo as creative reversal pair**: Try patching reversed playback through a short delay module. Chronoblob2 works beautifully here, or Audible Instruments Clouds in looping delay mode. The reversed sound plus its echo creates an uncanny shimmer: you hear the sound arriving before its apparent source, which gives the whole thing a ghostly, pre-echo quality. This maps most directly to Technique L (Echo), which we cover properly later, but the combination of reversal and a short delay is one of those discoveries worth making early.
+**Delay/Echo as creative reversal pair**: Try patching reversed playback through a short delay module — the VCV Delay from the Fundamental pack works well. The reversed sound plus its echo creates an uncanny shimmer: you hear the sound arriving before its apparent source, giving the whole thing a ghostly, pre-echo quality. This maps most directly to Technique L (Echo), which we cover properly later, but the combination of reversal and a short delay is one of those discoveries worth making early.
 :::
 
 ### Exercise 9
 
-*(40 seconds)*
+*(1 minute)*
 
-Take your spoken phrase from Exercise 7. Reverse it. Listen carefully. Identify two specific phonemes or syllables that sound most transformed by the reversal, not just different, but interestingly different.
+Record and reverse as many of the following as you can find: piano, glockenspiel, cymbal, triangle, drum, whistling, recorder (or any melodic instrument), foot shuffling, stamping, hand-clapping, speech. Use a separate Simpliciter instance for each sound. Listen carefully and make written notes about how each sound has changed from the original, and how the sounds relate to each other in their reversed form.
 
 ### Exercise 10
 
-*(40 seconds)*
+*(15 seconds)*
 
-Record a sound with a very sharp attack: a hand clap, a key strike, a finger snap. Reverse it. Listen to the slow swell that replaces the sharp attack. Record a second sound with a slow attack and sharp cutoff (a fade-in clap, if you can manage it, or a held tone that you cut sharply). Reverse that. The two reversed sounds should now have roughly opposite envelope shapes to what they started with.
+Take any six sounds from Exercise 9 and arrange them in order of descending pitch. Record this sequence into a new Simpliciter, then make an identical recording in reverse. The result is a continuous piece with a mirror structure: the sounds descend in pitch, then ascend again, with their attack and decay characteristics reversed in the second half.
+
+*This technique may prove useful in future. It is an intellectual device which may give pleasure to a listener who perceives it — but only if the sounds remain recognisable in reverse. Try your recording on a listener and ask them what is happening.*
 
 ### Exercise 11
 
-*(80 seconds)*
+*(20 seconds)*
 
-Use both forward and reversed versions of the same recording in a short piece. Play the forward version for a few seconds, then switch Simpliciter to reverse. You can do this by clicking the REVERSE button manually during playback, or by pre-arranging the two versions side by side in a DAW. Notice the seam: does it sound like a cut, like a reflection, or like something else?
+Using a triangle or cymbal (or any metallic, slow-fading sound), produce six sounds by combining three VARISPEED settings with both forward and reverse directions. Arrange these into an interesting rhythmic pattern and repeat it four times, as nearly identical as possible.
+
+*This is difficult to bring off convincingly. Hint: do not wait for each sound to die away completely, or the notes will be too long for a discernible rhythmic pattern.*
 
 ### Exercise 12
 
-*(80 seconds)*
+*(1 minute 20 seconds)*
 
-Take a recording that has an obvious internal rhythm: tapping, a repeated word, a metronome. Reverse it. Does the rhythm survive? Is it the same rhythm, or does it feel different? Write one sentence about what changes and what doesn't.
+Create a gradual climax using reversed playback only. Use any sounds you like. Move progressively from:
+
+- muffled → normal placement
+- low → high pitch
+- soft → loud
+- slow → fast
+
+You will need to record the material in reverse order (starting at the loudest, brightest, fastest point) and then reverse the whole thing for the final result.
 
 ### Exercise 13
 
-*(5 minutes)*
+*(1 minute)*
 
-Make a short piece (thirty to sixty seconds) using only reversal and speed change, Techniques C and D combined. No other manipulation. You have at most three recordings available to you. The constraint is the point: work within it.
+Create a piece in two sections: a gradual climax of Mistones (fading and long, using both forward and reversed playback), followed by a gradual anticlimax of Pseudotones (using two VARISPEED settings, all short sounds).
+
+*In the anticlimax section you may change the speed more than once, but ensure that in the final result there is a gradual slowing down, not sudden jumps between speeds. Build the first section to a fairly loud volume so the contrast with the second section is clear.*
 
 *Note: The combination of reversal and speed change is, historically, where a great deal of early musique concrète began. Pierre Schaeffer's études from 1948, often cited as the first musique concrète compositions, were built almost entirely from exactly these two techniques. You are, with Exercises 6 through 13, working in a tradition that is older than most popular music you know.*
