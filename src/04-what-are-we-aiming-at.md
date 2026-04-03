@@ -6,21 +6,13 @@ The best way to approach the question is through a conversation. The two voices 
 
 ---
 
-**B**: I've been doing the exercises and I keep getting these sounds that are — I don't know. Interesting for a moment, and then they just sit there. I don't know what to do with them.
+**B**: I've enjoyed doing the exercises, though it's hard to say how well I've done. Some of the sounds came out very weird.
 
-**A**: That's the right problem to have at this stage. What do you mean by "sit there"?
+**A**: That may be a good thing. Part of the fun is in creating new effects.
 
-**B**: They don't go anywhere. I have this reversed piano note that sounds amazing on its own, and then I play it and it's just... a reversed piano note. And then silence.
+**B**: Oh yes, I've had fun all right. The trouble is that some of the results sounded like a bit of a hotch-potch: weird sounds and amusing sounds and recognisable sounds and musical instruments all mixed up. I feel I'm a long way off making what could be called music. I know you said any sound can be used, but they don't all seem to fit together somehow.
 
-**A**: Right. That's not a problem with the sound. That's a problem with organisation. The reversed piano note is material. What you haven't done yet is make a piece.
-
-**B**: So what makes it a piece?
-
-**A**: Organisation. That's the whole answer, really. In conventional music, organisation is partly handed to you — you have a key, a time signature, a set of harmonic expectations that tell the listener where they are and where they're going. In this kind of music, you build the organisation yourself, from scratch, every time. The sounds don't come with instructions.
-
-**B**: That sounds harder.
-
-**A**: It is harder. It's also more free. Both things are true.
+**A**: Yes, this is all true, but I did say everything depends on the organisation. Up to now you've been more concerned with learning techniques and gaining listening experience. These are going to be invaluable when you really set about composing. The fact that you feel uneasy about sounds not fitting together proves that your ear has been educated during the process. You're getting critical: that's fine!
 
 **B**: But what am I organising? I mean, what are the categories? In regular music you've got rhythm and melody and harmony. What do I have here?
 
