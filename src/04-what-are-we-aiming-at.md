@@ -1,8 +1,8 @@
 # What Are We Aiming At?
 
-At this point you've made some recordings. You've played them back at wrong speeds and heard them run backwards. You may have noticed that some of what came out sounded genuinely interesting, and some of it sounded like nothing in particular. That gap — between accidentally interesting and deliberately good — is what this chapter is about.
+At this point you've made some recordings. You've played them back at wrong speeds and heard them run backwards. You may have noticed that some of what came out sounded genuinely interesting, and some of it sounded like nothing in particular. That gap, between accidentally interesting and deliberately good, is what this chapter is about.
 
-The best way to approach the question is through a conversation. The two voices here — A, who has been working with these techniques for a while, and B, who has just started — are composites of conversations that happen constantly in music classrooms, online forums, and late-night studio sessions. You may find yourself on both sides of the dialogue at different points.
+The best way to approach the question is through a conversation. The two voices here, A (who has been working with these techniques for a while) and B (who has just started), are composites of conversations that happen constantly in music classrooms, online forums, and late-night studio sessions. You may find yourself on both sides of the dialogue at different points.
 
 ---
 
