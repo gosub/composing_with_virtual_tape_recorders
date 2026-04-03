@@ -18,25 +18,21 @@ The best way to approach the question is through a conversation. The two voices 
 
 **A**: You have everything in the sounds themselves. Duration — how long something lasts. Amplitude — how loud or soft. Density — how many events per unit of time. Texture — is the surface of the sound smooth, rough, grainy? Pitch character — does it have a clear pitch, a fuzzy approximate pitch, a pitch that suggests without committing, no pitch at all? Those last categories are what Dwyer called Tones, Mistones, Pseudotones, and Sones. They're not the only way to categorise sounds, but they're a useful start.
 
-**B**: And I just... arrange those?
+**B**: What I can't understand is this business of Tones and Mistones and so on. If it's a good thing to have a musical instrument, why abuse it? And if it's a good thing to abuse it, why play it normally?
 
-**A**: You arrange them with intent. The difference between a sequence of random interesting sounds and a composition is that in a composition, each thing that happens has a relationship to what came before and what comes after. Even if the relationship is contrast — this is loud because the previous thing was quiet — that's still a relationship.
+**A**: I'm glad you raised that. They both have their uses, of course; but the main point is that we are trying to avoid sounding like conventional music. Mistones help in that direction, and Tones are wanted for several reasons. One is that they are nice sounds. Another is that where they have definite pitch it is easier to build up pitch relationships. And it's considerably easier to play a rapid succession of Tones on a piano, making some kind of melody, than to arrange pots and pans in a row and hit them.
 
-**B**: What about when it sounds like music? Like, real music? I made a chord by layering three recordings and it sounded like something from a film score.
+**B**: Well, surely you're back to conventional music now.
 
-**A**: What did you feel when you heard it?
+**A**: No, because we would take care to avoid the resemblance. The piano Tones could be placed against a background of everyday Sones, or altered by reversal or speed change so that they don't sound quite like a piano. This way we get the benefit of good timbre and clear pitch without arousing conventional associations. And we would not play conventional melodies. I said just now "some kind of melody": we would take care that it was a new and personal thing.
 
-**B**: Honestly? A bit disappointed. Like I'd accidentally made something ordinary.
+**B**: I see. That seems logical enough. What's wrong with conventional music, if I may ask?
 
-**A**: That's a healthy response. I don't mean that you should never let your work sound beautiful, or that beauty is somehow less serious than ugliness. I mean that when you're working in this medium, the conventional associations that come with familiar musical sounds — the film-score chord, the romantic piano figure — are so loaded that they tend to swamp whatever you were actually trying to say. The listener stops hearing your sounds and starts hearing their memories of other music.
+**A**: Nothing! But if you want it, it's more efficient to play it live on the instruments it's designed for.
 
-**B**: So I should avoid anything that sounds like music?
+**B**: Suppose I were clever enough to record just one note of a piano, and then by duplicating it at different pitches and joining the results together, couldn't I make a performance of the Moonlight Sonata?
 
-**A**: You should be *aware* of when you're using existing associations and when you're creating new ones. Sometimes you want to invoke an association deliberately. But you should know you're doing it. Stumbling into the Moonlight Sonata by accident is not the same as choosing to quote the Moonlight Sonata.
-
-**B**: Has anyone actually quoted the Moonlight Sonata in this kind of music?
-
-**A**: Almost certainly. But the point is that if you did it accidentally — if your reversed piano chord happened to land on those famous opening arpeggios — you'd be dragging all of Beethoven into your piece whether you wanted him there or not. The listener can't unhear it.
+**A**: It would be a fantastic technical feat, but what would be the point? It's quicker to play it on the piano — and better, from Beethoven's point of view. Surely it would be more sensible to use all that energy on something that properly belongs to this medium and this medium alone?
 
 **B**: What about the other direction? What if the piece sounds like nothing at all? Like pure noise?
 
