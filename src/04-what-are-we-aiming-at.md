@@ -111,9 +111,3 @@ The best way to approach the question is through a conversation. The two voices 
 **A**: By all means. Let's go.
 
 ---
-
-We've been circling the central question of this chapter — what are we aiming at? — without quite answering it, because the honest answer is that it differs for each piece, each composer, each moment of listening. But there is a core of it that can be stated plainly: you are aiming at a piece in which every sound, every silence, every transition, and every duration is the result of a decision — and in which those decisions add up to something a listener can experience as organised, as meaningful, as *made*.
-
-That's the standard. It's high but not mysterious, and you already have the tools to begin working toward it.
-
-The next chapter takes on Techniques E and F: tape loops and layering — the techniques that first gave musique concrète its reputation for hypnotic, slowly evolving textures. In Simpliciter, loop points can be set with precision and changed in real time. You will find, as you work through those exercises, that the ideas in this chapter become more urgent: with loops especially, the question of organisation — of what changes and what stays the same — becomes impossible to avoid.
