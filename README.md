@@ -89,7 +89,7 @@ Paragraph-by-paragraph review against Dwyer's original, with corrections and add
 | 1 — Any Number Can Play | ✅ Complete |
 | 2 — Sounds Galore | ✅ Complete |
 | 3 — First Steps | ✅ Complete |
-| 4 — What Are We Aiming At? | ⬜ Not started |
+| 4 — What Are We Aiming At? | ✅ Complete |
 | 5 — Further Techniques | ⬜ Not started |
 | 6 — Workaday Matters | ⬜ Not started |
 | 7 — Sounds in Space | ⬜ Not started |
@@ -107,6 +107,14 @@ This work is deeply indebted to Terence Dwyer's original book, which deserves fa
 ---
 
 ## Changelog
+
+### v0.5 — 2026-04-04
+- Ch 4 paragraph-by-paragraph review against Dwyer original
+- Align opening dialogue block, Tones/Mistones block, Sones/recognisability block to Dwyer
+- Insert rhythm/melody/electronic music dialogue from Dwyer original
+- Insert texture dialogue block from Dwyer original
+- Remove redundant closing narrative paragraphs
+- Remove em-dashes from opening paragraphs
 
 ### v0.4 — 2026-03-28
 - Ch 0–3 paragraph-by-paragraph review against Dwyer original
