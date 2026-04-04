@@ -109,5 +109,3 @@ The best way to approach the question is through a conversation. The two voices 
 **B**: Right. Can I start on these textures now?
 
 **A**: By all means. Let's go.
-
----
