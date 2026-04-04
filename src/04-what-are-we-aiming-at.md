@@ -94,6 +94,22 @@ The best way to approach the question is through a conversation. The two voices 
 
 **A**: You're sharing a way of thinking about sounds. The patch is the score, and whoever opens it can read the score, modify it, perform it differently, learn from it. That's not so different from what musicians have always done with each other's work. It's just faster, and there are more of us.
 
+**B**: Fair enough. What's next?
+
+**A**: Funnily enough it raises something I've just mentioned: the question of texture. Conventional music, particularly orchestral, has many different things going on at the same time. We call this a thick texture. Electronic music tends to prefer thin textures of one, two, or three sounds at once.
+
+**B**: Is this because many layers are impossible?
+
+**A**: Oh no, they are quite possible. It's because, having jettisoned melody, harmony, rhythm and so on, the composers concentrate on timbre, or tone colour. The listener contemplates and enjoys the individual sounds, and if there are too many at a time they tend to cancel out.
+
+**B**: But if that's true, couldn't it be said of Tchaikovsky's orchestra?
+
+**A**: You may have a point there. But that's the way the electronic composers look at it. When you've tried creating thin and thick textures for yourself, you can make up your own mind which you prefer.
+
+**B**: Right. Can I start on these textures now?
+
+**A**: By all means. Let's go.
+
 ---
 
 We've been circling the central question of this chapter — what are we aiming at? — without quite answering it, because the honest answer is that it differs for each piece, each composer, each moment of listening. But there is a core of it that can be stated plainly: you are aiming at a piece in which every sound, every silence, every transition, and every duration is the result of a decision — and in which those decisions add up to something a listener can experience as organised, as meaningful, as *made*.
