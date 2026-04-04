@@ -34,13 +34,17 @@ The best way to approach the question is through a conversation. The two voices 
 
 **A**: It would be a fantastic technical feat, but what would be the point? It's quicker to play it on the piano — and better, from Beethoven's point of view. Surely it would be more sensible to use all that energy on something that properly belongs to this medium and this medium alone?
 
-**B**: What about the other direction? What if the piece sounds like nothing at all? Like pure noise?
+**B**: Yes, of course. I just wondered. Then logically we ought to use Sones rather than Tones?
 
-**A**: Pure noise can be extraordinarily organised. The question is always whether the organisation is audible — whether the listener can perceive the relationships you've built. If they can't, the piece has failed to communicate, regardless of how sophisticated the underlying structure is. Organisation that only you can hear is not organisation; it's private notation.
+**A**: I don't like "rather than". We ought to use both. The trouble with Sones is similar to that with Tones: they can arouse associations we would rather avoid. For example, if we use breaking glass and a rattling match-box, people's minds will conjure up the appropriate image and we shall lose the abstract power of music to fascinate *by sheer sound*. Unless, of course, we process the Sones so they aren't recognisable.
 
-**B**: So I need an audience.
+**B**: You don't think people should know how we made our sounds?
 
-**A**: You need to imagine an audience. You need to listen to your own work as if you were hearing it for the first time, with no knowledge of how you made it. That's the critical faculty you're developing when you do these exercises. Not technique — judgment.
+**A**: Not usually. We don't even want them to *wonder* what made them. The essence of true music is that we are interested in the sound itself, not its cause.
+
+**B**: Ah! I think I see why you want Mistones and Pseudotones. These are less recognisable and don't make people think immediately of conventional music or of everyday objects.
+
+**A**: Exactly. Mistones and Pseudotones are already, by their nature, more fitted for this kind of music. Tones and Sones *become* suitable when we have processed them. But not always. There must be times when it is right to use them unchanged.
 
 **B**: I keep seeing people talk about this kind of work on streaming, on Bandcamp, on SoundCloud. Some of it is incredible and some of it sounds like someone dropped a microphone. How do I tell which kind I'm making?
 
