@@ -46,15 +46,31 @@ The best way to approach the question is through a conversation. The two voices 
 
 **A**: Exactly. Mistones and Pseudotones are already, by their nature, more fitted for this kind of music. Tones and Sones *become* suitable when we have processed them. But not always. There must be times when it is right to use them unchanged.
 
-**B**: I keep seeing people talk about this kind of work on streaming, on Bandcamp, on SoundCloud. Some of it is incredible and some of it sounds like someone dropped a microphone. How do I tell which kind I'm making?
+**B**: Well, that's cleared one point up. I'd like to ask something else. What about rhythm and melody and the other things conventional music has? Are we going to abandon them completely? I don't see how we can be said to compose music without them, but if we use them, perhaps we get back to that bogey of sounding conventional.
 
-**A**: Ask yourself whether anything could have been different. If you listen to your piece and you can't imagine a better version — a different order, a different duration, a different balance — then either you've made something perfect or you've made something you haven't examined honestly. Usually it's the second one.
+**A**: It isn't only my bogey; it ought to be yours too. But you have put your finger on a tricky problem. Composers of electronic music have realised that their medium calls for new principles completely, and they have pretty well dropped all the old rules for composition.
 
-**B**: That's harsh.
+**B**: What's electronic music got to do with us? That needs oscillators and fancy equipment, doesn't it?
 
-**A**: It's meant to be useful. The composers whose work survives — in the VCV Rack community and modular synthesis culture, in the tape music archives, everywhere — aren't the ones who got lucky. They're the ones who listened to their own work harder than anyone else did, and made it again, and listened again.
+**A**: Yes, true electronic music would not use a microphone at all. But these days the two things overlap, and many leading composers have chosen electronic means of sound production rather than live sounds because they can be more exactly controlled. Quite often you can't tell the difference between some of our sounds and electronic music. On the whole we would do well to learn from electronic composers, though we can never do all the things they can.
 
-**B**: Speaking of the VCV Rack community — does this actually count? As composition, I mean? I'm pushing buttons in software on a laptop. Schaeffer had a studio full of equipment. Stockhausen had a team of technicians. Am I actually doing the same thing?
+**B**: In what way have they dropped the old rules?
+
+**A**: Briefly: no themes, no melody, no rhythm, no harmony, thin textures, great emphasis on single sounds and their tone-colours. Also the use of several channels to make sounds move around in space.
+
+**B**: That last bit sounds exciting. But surely the other things mean that it's not really music? You said music must be organised. How is electronic music organised?
+
+**A**: There are three answers. One is that each composer invents his own organisation for each piece, and this may be considered successful because we can perceive it somehow, probably unconsciously. Another is that the composer may have organised things in so private a way that the audience *can't* perceive it. Thirdly, I can't help feeling that sometimes there's no real organisation at all; that frankly, it's bad music.
+
+**B**: This all sounds very risky. Why can't I stick to the safer rules of earlier music? People would understand my sounds better then, wouldn't they?
+
+**A**: This is something we all have to decide individually. It's a matter of communicating with other people. If you talk a language they are familiar with you'll communicate quickly. But in artistic matters, ease of communication tends to link itself with lightness of worth. Significant depth often involves a new language. But it's a very involved subject.
+
+**B**: Look, this talk of significant depth is too much for me. I'm in this for fun and I haven't time to forge a new language. Anyway, you're supposed to be showing me how.
+
+**A**: Yes, and what I'll be doing is asking you to try various approaches: sometimes based on conventional music, sometimes on the *avant-garde*, sometimes leaving you free. Eventually you can decide what you want to do.
+
+**B**: Fair enough. Speaking of the VCV Rack community — does this actually count? As composition, I mean? I'm pushing buttons in software on a laptop. Schaeffer had a studio full of equipment. Stockhausen had a team of technicians. Am I actually doing the same thing?
 
 **A**: Yes. Emphatically yes.
 
