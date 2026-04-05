@@ -2,9 +2,9 @@
 
 ## Technique E — Superimposition
 
-Superimposition means combining two or more recordings so that they play simultaneously, their sounds layered into a single composite texture. In Dwyer's day this was done by sound-on-sound recording: you played back a tape recording while simultaneously recording new material onto it, so that both sounds were captured together on the tape. The process worked, but it came with a cost — every generation of recording added noise and reduced high-frequency clarity. Layer three or four times and the quality degraded noticeably. This was sometimes a creative limitation in itself: the murkiness of a heavily layered tape had its own aesthetic character, a kind of sonic density that said something about the accumulation of sounds.
+Superimposition means combining two or more recordings so that they play simultaneously, their sounds layered into a single composite texture. In Dwyer's day this was done by sound-on-sound recording: you played back a tape while simultaneously recording new material onto it, so that both sounds were captured together. The process worked, but every generation of recording added noise and reduced clarity. Layer three or four times and the quality degraded noticeably. This was sometimes a creative limitation in itself, since the murkiness of a heavily layered tape had its own aesthetic character.
 
-In VCV Rack, there is no generational loss. Digital audio is copied perfectly, combined perfectly, played back perfectly regardless of how many layers you add. This is liberating, but it also removes a natural stopping point. With tape you eventually had to stop layering because the quality was gone. With VCV you can keep going, and the temptation to keep adding is real and not always helpful. We'll return to this point.
+In VCV Rack there is no generational loss. Digital audio is copied and combined perfectly, regardless of how many layers you add. This is liberating, but it also removes a natural stopping point. With tape you eventually had to stop layering because the quality was gone. With VCV you can keep going, and the temptation to keep adding is real and not always helpful. We will return to this point.
 
 ### Building the Superimposition Patch
 
