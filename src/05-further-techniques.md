@@ -1,7 +1,5 @@
 # Further Techniques
 
-By now you have a working studio, a collection of recorded sounds, and some experience manipulating them — changing their speed, reversing them, adjusting their levels. These are the fundamentals of musique concrète, and they never stop being useful. But there is more. In this chapter we cover three techniques that open up new compositional territory: superimposition, loops, and editing. Each one expands what you can do with the material you already have.
-
 ## Technique E — Superimposition
 
 Superimposition means combining two or more recordings so that they play simultaneously, their sounds layered into a single composite texture. In Dwyer's day this was done by sound-on-sound recording: you played back a tape recording while simultaneously recording new material onto it, so that both sounds were captured together on the tape. The process worked, but it came with a cost — every generation of recording added noise and reduced high-frequency clarity. Layer three or four times and the quality degraded noticeably. This was sometimes a creative limitation in itself: the murkiness of a heavily layered tape had its own aesthetic character, a kind of sonic density that said something about the accumulation of sounds.
