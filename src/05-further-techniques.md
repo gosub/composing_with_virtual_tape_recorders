@@ -23,27 +23,25 @@ Both Simpliciters now play simultaneously through the mixer. You can adjust the 
 
 ![Signal flow: Simpliciter × 2 → Mixer → Output](images/diagrams/technique-e.svg)
 
-The mixer gives you control over the balance between the two sounds. A sound that feels overwhelming at equal volume might be exactly right when pulled back by 6 decibels. A thin, high-frequency texture might need to be pushed up to be audible beneath a dense low-frequency layer. Spend time with the faders — the balance between layers is a compositional decision, not just a technical one.
+The mixer gives you control over the balance between the two sounds. A sound that feels overwhelming at equal volume might be exactly right when pulled back by 6 decibels. A thin, high-frequency texture might need to be pushed up to be audible beneath a dense low-frequency layer. Spend time with the faders: the balance between layers is a compositional decision, not just a technical one.
 
 ### Playing with Speed and Pitch
 
-The technique becomes musically interesting when you play the two recordings at different speeds. Recall from Chapter 3 that changing Simpliciter's SPEED knob raises or lowers the pitch. Set Simpliciter 1 to normal speed (12 o'clock) and Simpliciter 2 to half speed (fully counter-clockwise). Now you have two versions of the same or different sounds at an octave interval. Try three-quarter speed on one and one-and-a-half on the other. Try one forward and one reversed.
+The technique becomes musically interesting when you play the two recordings at different speeds. Recall from Chapter 3 that changing Simpliciter's VARISPEED knob raises or lowers the pitch. Set Simpliciter 1 to normal speed (roughly 3 o'clock) and Simpliciter 2 to half speed. Now you have two versions of the same or different sounds at an octave interval. Try three-quarter speed on one and one-and-a-half on the other. Try one forward and one reversed.
 
-The relationship between the pitches of your layered sounds matters enormously. Two sounds that clash harmonically will create tension. Two sounds that complement each other will merge into something new. Neither outcome is wrong — but you should choose deliberately rather than accidentally.
+The relationship between the pitches of your layered sounds matters enormously. Two sounds that clash harmonically will create tension. Two sounds that complement each other will merge into something new. Neither outcome is wrong, but you should choose deliberately rather than accidentally.
 
 ### Imposing Your Own Density Ceiling
 
 Because VCV doesn't degrade with layering, you need to decide for yourself when to stop adding material. Two practical approaches:
 
-**Approach 1 — Set a rule before you start.** Decide that this piece uses a maximum of three layers, or four, or two. Having a rule forces creative decisions: if you want to add a fourth layer, something else must be removed first.
+**Approach 1: set a rule before you start.** Decide that this piece uses a maximum of three layers, or four, or two. Having a rule forces creative decisions: if you want to add a fourth layer, something else must be removed first.
 
-**Approach 2 — Use gain staging and saturation.** This reintroduces a kind of artificial density ceiling that behaves like tape. The idea is that as you add more material, the output becomes warmer and more compressed rather than simply louder and more cluttered.
+**Approach 2: use gain staging and saturation.** This reintroduces a kind of artificial density ceiling that behaves like tape. As you add more material, the output becomes warmer and more compressed rather than simply louder and more cluttered.
 
 ::: {.creative-option}
-**Tape Saturation for Superimposition**: When layering multiple Simpliciters, run the mixer output through **NYSTHI Console** before the final Audio OUT. Push the Console's input gain just into saturation — you'll hear the sound become denser and slightly warmer as the levels rise. This creates something like the "full tape" feeling: the mix sounds cohesive and dense rather than just loud and busy. The saturation acts as a natural boundary; once everything sounds saturated, you've reached your ceiling. At that point, the only way forward is subtraction.
+**Tape Saturation for Superimposition**: When layering multiple Simpliciters, run the mixer output through **ChowDSP ChowTape** before the final Audio OUT. Push the input gain just into saturation and you will hear the sound become denser and slightly warmer as the levels rise. This creates something like the "full tape" feeling: the mix sounds cohesive and dense rather than just loud and busy. The saturation acts as a natural boundary; once everything sounds saturated, you've reached your ceiling. At that point, the only way forward is subtraction.
 :::
-
-*Note: NYSTHI Console is in the same plugin pack as Simpliciter. Right-click the module for gain controls.*
 
 
 ### Exercise 14
