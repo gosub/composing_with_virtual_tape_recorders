@@ -46,57 +46,42 @@ Because VCV doesn't degrade with layering, you need to decide for yourself when 
 
 ### Exercise 14
 
-*(2 minutes)*
+*(10 seconds)*
 
-Record two separate short sounds — any two sounds. Load them into Simpliciter 1 and Simpliciter 2. Set both to normal speed and play them together. Adjust the mixer balance until you find a proportion that interests you. Make a note of what you discover: does one sound dominate the other? Do they merge into something new, or do they remain distinct?
+Record a long sound of sliding pitch: a human whistle sliding up and down, or a recorder headpiece with the palm shading the opening. Load it into three Simpliciter modules. Play all three simultaneously through the mixer. If possible, offset the timing of each layer so that the rises and falls do not correspond. You can also create sliding pitch by loading a fixed-pitch recording and modulating the VARISPEED knob slowly and irregularly while it plays.
 
 ### Exercise 15
 
-*(3 minutes)*
+*(10 seconds)*
 
-Using the same two recordings from Exercise 14, set Simpliciter 2 to half speed. Play both together. Now try three-quarter speed on Simpliciter 2. Try double speed. What pitch relationships arise? Which ones feel complementary and which feel dissonant?
+Record the sound of crumpling paper continuously for about ten seconds. Load it into three Simpliciter modules and set each to a different VARISPEED setting: one at normal speed, one at half speed, one at double speed. Play all three together and listen to the result. Now try playing back the combined texture at half speed.
 
 ### Exercise 16
 
-*(3 minutes)*
+*(30 seconds)*
 
-Set Simpliciter 2 to reverse playback. Play both sounds together — one forward, one reversed. This is one of the classic superimposition effects in musique concrète: the reversed version provides a kind of "shadow" of the forward sound. Adjust levels.
+Record four high sounds, one of each source-type (a Tone, a Mistone, a Pseudotone, and a Sone). Superimpose them. Then record four medium-pitched sounds, one of each type, and superimpose those. Then four low sounds, one of each type. You will need up to four Simpliciter modules per group, all routed through a mixer.
 
 ### Exercise 17
 
-*(4 minutes)*
+*(10 seconds)*
 
-Record three short sounds. Add a third Simpliciter and a third mixer channel. Layer all three at normal speed. Find a balance. Then deliberately push the NYSTHI Console (if installed) into light saturation. Listen to how the density changes. Compare the saturated version with the clean version.
+Superimpose one high sound, one medium sound, and one low sound, each from a different source-type, to show maximum contrast. Balance the levels so that all three remain clearly audible. Compare the result with Exercise 16: what does contrast of pitch range add to the texture?
 
 ### Exercise 18
 
-*(3 minutes)*
+*(1 minute 20 seconds)*
 
-Superimpose two very different types of sound — for example, a percussive impact and a sustained drone. Notice how the percussive element cuts through the sustained one. Try reversing which is louder. Try running the percussive sound through a slight pitch-down (0.75 speed) to give it a heavier character.
+Construct a changing texture using four Simpliciter modules, entering one at a time in this order:
 
-### Exercise 19
+- Element 1: tremolo Sones speeded up to give medium pitch. Enters first, plays throughout.
+- Element 2: low fading Pseudotones. Enters after Element 1 is established.
+- Element 3: low Tones slowed down to give low pitch. Enters after Element 2.
+- Element 4: high short Mistones. Enters last, before Element 1 has finished.
 
-*(4 minutes)*
+The overall shape should build to a climax and then fall to an anticlimax. Work out a timing scheme on paper before you begin. Take care that Element 4 has entered before Element 1 leaves off.
 
-Make a texture by superimposing a sound with itself at three different speeds: normal, three-quarter, and one-quarter. Three instances of the same recording at three different pitches. Balance the levels carefully. Notice how the identity of the original sound becomes harder to perceive as the layers accumulate.
-
-### Exercise 20
-
-*(3 minutes)*
-
-Superimpose a forward version of a sound with its own reversed version at the same speed. This creates a near-palindrome: both versions reach their midpoint simultaneously, then diverge. The effect is strange and unsettling in ways that neither version alone produces.
-
-### Exercise 21
-
-*(5 minutes)*
-
-Build a layered texture from five sounds. Do not use more than five. Set a rule: the total duration of the piece is thirty seconds. Work backward from that constraint — what do you need to establish in the first ten seconds? What changes in the middle? How does it end?
-
-### Exercise 22
-
-*(5 minutes)*
-
-Return to Exercise 21 and deliberately subtract material rather than adding it. Start with all five layers playing, and over thirty seconds remove them one by one until you are left with a single sound. Compare this version with the additive version from Exercise 21. Which one holds your attention more? Why?
+*The purpose of these exercises is to experience various textures and to develop the ability to assess their effectiveness. By the time you have worked through them you should be fairly adept at working the controls and should have lost any feeling that superimposition is a bothersome chore.*
 
 ---
 
