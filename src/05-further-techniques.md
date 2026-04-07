@@ -93,33 +93,33 @@ In Simpliciter, the loop function is built in. Press the **LOOP** button on the 
 
 ### Loop Modes
 
-Simpliciter offers three loop modes, selected by right-clicking the module:
+Simpliciter has two loop modes controlled by the **LOOP** switch on the panel: off (one-shot) and on (forward loop). A third mode, ping-pong, is available by right-clicking on the waveform display and selecting it from the context menu.
 
-**Forward loop** — plays from START to END, then jumps back to START and repeats. The standard loop mode.
+**Forward loop** — plays from START to END, then jumps back to START and repeats. The standard loop mode, activated by the LOOP switch.
 
-**Ping-pong loop** — plays from START to END (forward), then from END to START (backward), alternating. This creates a characteristic back-and-forth motion that can feel organic or mechanical depending on the material.
+**Ping-pong loop** — plays from START to END (forward), then from END to START (backward), alternating. This creates a characteristic back-and-forth motion that can feel organic or mechanical depending on the material. Selected via right-click on the waveform display.
 
-**One-shot** — plays from START to END once and stops. Useful when you want a defined region of a recording to play on demand, without repeating.
+**One-shot** — plays from START to END once and stops. Useful when you want a defined region of a recording to play on demand, without repeating. This is the default when the LOOP switch is off.
 
 ### Musical Possibilities
 
 Loops enable three distinct compositional strategies:
 
-**Ostinatos** — short, repeating rhythmic or melodic cells. If your recording contains a percussive sound, loop a small section around that hit to create a rhythmic pulse. Set the loop region tightly — just the attack and a short tail — and you have a drum machine made from any sound.
+**Ostinatos** — short, repeating rhythmic or melodic cells. If your recording contains a percussive sound, loop a small section around that hit to create a rhythmic pulse. Set the loop region tightly, just the attack and a short tail, and you have a drum machine made from any sound.
 
 **Drones** — a sustained tone or texture looped over a long region. If your sound has a relatively stable middle section (after the attack, before the release), loop that section alone. The START and END knobs let you isolate exactly that portion.
 
-**Rhythmic cells** — looped phrases of two to four seconds that establish a pattern without becoming mechanical. The difference between a cell and an ostinato is largely one of length and complexity — an ostinato is shorter and simpler, a cell is longer and more varied.
+**Rhythmic cells** — looped phrases of two to four seconds that establish a pattern without becoming mechanical. The difference between a cell and an ostinato is largely one of length and complexity: an ostinato is shorter and simpler, a cell is longer and more varied.
 
-### Seamless Crossfade Loops
+### Smooth Loop Joins
 
-The challenge with loops is the join — the point where the END snaps back to START. If the audio doesn't match cleanly at that join, you'll hear a click or pop. Simpliciter addresses this with the **FADE** parameter, which applies a short crossfade at the loop boundary: the audio at the end fades out while the audio at the beginning fades in, blending the two points together. For smooth, seamless loops, set FADE to a small value (try 5–10 milliseconds to start) and listen carefully at the join. Increase FADE until the click disappears. If you increase it too far, you'll start to hear a rhythmic pulse at the join itself as the crossfade becomes audible.
+The challenge with loops is the join: the point where the END snaps back to START. If the audio doesn't match cleanly at that join, you'll hear a click or pop. Simpliciter's **CLICK** knob is a transient smoother that reduces this artifact. Turn it up until the click disappears. If you turn it too far, you will start to hear a rhythmic pulse at the join itself as the smoothing becomes audible.
 
 ![Technique F — Loop mode settings](images/screenshots/technique-f-loops.png)
 
 ![Signal flow: Simpliciter LOOP → endless playback](images/diagrams/technique-f.svg)
 
-*Note: The crossfade works best when the audio at both loop points has similar amplitude. A loop that starts loud and ends quiet (or vice versa) will never be completely seamless regardless of the FADE setting. Choose your loop points where the audio level is roughly matched.*
+*Note: The CLICK knob works best when the audio at both loop points has similar amplitude. A loop that starts loud and ends quiet (or vice versa) will never be completely seamless regardless of the setting. Choose your loop points where the audio level is roughly matched.*
 
 ::: {.creative-option}
 **Echo/Feedback Loop**: The classic tape loop — a physical ring of tape passing repeatedly through the record head — created a kind of feedback where each pass of the tape added new material to an accumulating record. In VCV Rack, you can approximate this in two ways. The simpler method: add a delay module (Chronoblob2 is free and excellent) after your Simpliciter output, set a long delay time, and push the **Feedback** knob up. Each repeat of the sound recedes slightly in level; the delay time determines how long between repeats. The more complex method: use Simpliciter itself in its overdub mode, routing audio back into the module's input while it loops. Each pass adds the new audio to the existing loop, and the loop accumulates material over time. Handle this second approach with care — without some level reduction in the feedback path, the loop will grow louder with every pass and eventually distort or clip. A gain reduction of around 80% per pass (about −2 dB) keeps things under control.
