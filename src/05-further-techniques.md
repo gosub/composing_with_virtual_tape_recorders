@@ -126,25 +126,25 @@ The challenge with loops is the join: the point where the END snaps back to STAR
 :::
 
 
-### Exercise 23
+### Exercise 19
 
 *(3 minutes)*
 
 Record a sound of approximately ten seconds. Enable LOOP mode in Simpliciter. Set START to 0 and END to maximum. Let it loop. Now slowly adjust the START knob rightward, narrowing the loop from the beginning. Notice how the character of the loop changes as shorter and shorter sections repeat.
 
-### Exercise 24
+### Exercise 20
 
 *(4 minutes)*
 
-Find a section of your recording that has a relatively stable middle — neither beginning nor ending, just the body of the sound. Set START and END to isolate only this section. Adjust FADE until the join is smooth. You now have a drone. Let it play for at least sixty seconds. Listen to whether it remains interesting over time.
+Find a section of your recording that has a relatively stable middle — neither beginning nor ending, just the body of the sound. Set START and END to isolate only this section. Adjust the CLICK knob until the join is smooth. You now have a drone. Let it play for at least sixty seconds. Listen to whether it remains interesting over time.
 
-### Exercise 25
+### Exercise 21
 
 *(4 minutes)*
 
 Use ping-pong mode on a short loop (approximately one second). Listen to the back-and-forth motion. Now try the same loop region in forward mode. Compare: does the ping-pong feel more natural, more mechanical, or simply different? Try three different sounds and note which works best in each mode.
 
-### Exercise 26
+### Exercise 22
 
 *(5 minutes)*
 
@@ -189,13 +189,13 @@ The workflow is simple: record your sounds in Simpliciter and find the .wav file
 :::
 
 
-### Exercise 27
+### Exercise 23
 
 *(4 minutes)*
 
 Record a sound of at least fifteen seconds. Using only Simpliciter's START and END knobs, find five distinct "inner sounds" within that recording — five different segments that each feel like a complete, self-contained sonic event. You do not need to play them in sequence yet. Just identify them and note the approximate START and END positions of each.
 
-### Exercise 28
+### Exercise 24
 
 *(6 minutes)*
 
