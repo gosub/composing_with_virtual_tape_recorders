@@ -216,3 +216,9 @@ Play back several of your previous recordings. Load the ones you find most inter
 ### Exercise 26
 
 Construct a Rondo in the form A1, B, A2, C, A3. A1 is a four-layer group of Pseudotones, some processed at changed speeds using the VARISPEED knob. B and C are taken from two different previous recordings: load them into separate Simpliciter modules and use START and END to isolate the segments you want. Sequence the five sections in order: A1, B, A2, C, A3. A2 and A3 are repetitions of A1; you may introduce subtle differences in level if you wish.
+
+### Exercise 27
+
+*(1–2 minutes)*
+
+Using only a piano to produce Tones and Mistones, employ every technique you have learned up to now: microphone placement and distance, gain control, VARISPEED changes, reverse playback, superimposition of multiple Simpliciters, loops, intermittent triggering, and editing with START and END. Produce a fantasia of effects from a single source. Use silences carefully. Those without a piano should use the voice, preferably singing various improvised notes to pure vowels.
