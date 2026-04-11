@@ -186,18 +186,14 @@ The basic setup:
 
 Now each step of the sequencer triggers a different sound segment in sequence. This is a direct VCV equivalent of a spliced tape: a series of fragments played end-to-end in a defined order.
 
-The join between segments can be abrupt (immediately satisfying in rhythmic music) or smoothed using Simpliciter's FADE parameter (useful for continuous, flowing passages). Experiment with both.
+The join between segments can be abrupt (immediately satisfying in rhythmic music) or smoothed using Simpliciter's CLICK knob. Experiment with both.
 
-### The DAW as Sidecar
+### A Note on Precision Editing
 
-For more precise editing — trimming sounds to the exact millisecond, normalising levels, applying fades visually — VCV Rack has practical limits. The START and END knobs give you good control, but they don't show you a waveform, and fine adjustments can be fiddly. This is where a free DAW (Digital Audio Workstation) such as **Audacity** becomes useful as a companion tool.
-
-The workflow is simple: record your sounds in Simpliciter and find the .wav files in your patch folder; open them in Audacity; edit precisely using the visual waveform display; export the edited files back to the same folder; reload them in Simpliciter. This round-trip adds a step, but it gives you a level of precision that is genuinely difficult to achieve with knobs alone.
-
-*Note: Simpliciter saves its recordings in the same folder as your VCV Rack patch. Keep your patch files organised and named clearly — it makes finding the right .wav file much easier.*
+Precision editing, trimming sounds to the exact millisecond and applying visual fades, is possible in a free tool such as **Audacity**: record in Simpliciter, open the saved .wav file in Audacity, edit with the waveform display, and reload the result. This is outside the scope of this book, however. Part of the original appeal of tape music was that the limitations of the medium were a creative stimulus: you worked with what you had, and the constraint forced decisions. Working exclusively within Simpliciter recreates something of that spirit. The START and END knobs are imprecise by the standards of a waveform editor, but that imprecision is productive. Use it.
 
 ::: {.creative-option}
-**Granular Synthesis as Modern Splicing**: Once you are comfortable with the editing techniques described here, it is worth knowing that granular synthesis carries the logic of tape splicing to an extreme. A granular module — the **Mutable Instruments Beads** (or its VCV equivalent, **Audible Instruments Texture Synthesizer**) — cuts incoming audio into hundreds of tiny fragments called grains, each typically between one and one hundred milliseconds long, and reassembles them in real time. The position within the recording, the grain size, the density of the grains, and the playback speed are all adjustable. It is, conceptually, an infinitely fast editor making thousands of tiny splices per second. This is not where you need to start — getting comfortable with Simpliciter's basic editing first is the right order — but it is a fascinating direction to explore once the fundamentals are solid.
+**Granular Synthesis as Modern Splicing**: Once you are comfortable with the editing techniques described here, it is worth knowing that granular synthesis carries the logic of tape splicing to an extreme. A granular module such as **Audible Instruments Texture Synthesizer** cuts incoming audio into hundreds of tiny fragments called grains, each typically between one and one hundred milliseconds long, and reassembles them in real time. The position within the recording, the grain size, the density of the grains, and the playback speed are all adjustable. It is, conceptually, an infinitely fast editor making thousands of tiny splices per second. This is not where you need to start, but it is a fascinating direction to explore once the fundamentals are solid.
 :::
 
 
