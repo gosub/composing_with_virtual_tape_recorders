@@ -160,22 +160,28 @@ Construct a ternary piece in three sections:
 
 ## Technique G — Editing
 
-Editing in Dwyer's practice was irreversible physical surgery: you cut the tape with a razor blade and joined the pieces with splicing tape. A well-placed splice was invisible to the listener — a clean join between two sounds with no click and no pause. A poorly placed splice announced itself immediately. Getting good at editing on tape required practice and steady hands. The fundamental concept, though, was simple: the edit point is where the end of one sound meets the beginning of the next.
+Editing, as in film-making, implies selection of existing material, possible rejection of any of it, rearranging the order of events, and so on. Many people regard it as the most creative part of both tape music and film-making.
 
-In VCV Rack, the nearest equivalent to the razor blade is Simpliciter's **START** and **END** knobs. They do not destroy anything — your original recording remains intact — but they define exactly which portion of it plays. Set START to 0.3 and END to 0.7 and you play only the middle forty percent of the recording. Everything before and after is simply ignored. This is non-destructive editing: you can change your mind, re-set the knobs, and play a completely different section of the same recording.
+In Dwyer's practice this was irreversible physical surgery: you cut the tape with a razor blade and joined the pieces with splicing tape. A well-placed splice was invisible to the listener, a clean join with no click and no pause. A poorly placed splice announced itself immediately.
+
+Two main techniques were available: *intermittent feed* (playing from one machine to another, using pause and stop controls to let material through selectively) and *cutting* (physically splicing pieces of tape from different sources into a continuous whole). In VCV Rack, both have direct equivalents.
+
+For intermittent feed: play a Simpliciter and route its output to the Audio OUT, using the module's TRIG input and a manual gate or sequencer to start and stop playback selectively. Material can be let through or held back at will, and the original recording remains intact.
+
+For cutting: Simpliciter's **START** and **END** knobs define exactly which portion of a recording plays. Set START to 0.3 and END to 0.7 and you hear only the middle forty percent. This is non-destructive editing: you can change your mind, adjust the knobs, and play a completely different section of the same recording without touching the original file.
 
 ![Technique G — START/END markers in Simpliciter](images/screenshots/technique-g-editing.png)
 
 ### The Edit Point
 
-The art of editing is the art of the edit point — the place where sound A ends and sound B begins. In tape editing, this join happened instantaneously (or, with a crossfade splice, over a very short overlap). In VCV, you can replicate this by sequencing multiple Simpliciters: each one plays a different segment, triggered by a gate signal from a sequencer.
+The art of editing is the art of the edit point: the place where sound A ends and sound B begins. In tape editing, this join happened instantaneously (or, with a crossfade splice, over a very short overlap). In VCV, you can replicate this by sequencing multiple Simpliciters, each one playing a different segment, triggered by a gate signal from a sequencer.
 
 The basic setup:
 
 1. Load your recordings into two or more Simpliciter modules.
 2. Set START and END on each to define the segment you want.
 3. Add a **VCV SEQ-3** or similar step sequencer.
-4. Route the sequencer's gate outputs to the **TRIG** inputs of the respective Simpliciters — Gate 1 triggers Simpliciter 1, Gate 2 triggers Simpliciter 2, and so on.
+4. Route the sequencer's gate outputs to the **TRIG** inputs of the respective Simpliciters (Gate 1 triggers Simpliciter 1, Gate 2 triggers Simpliciter 2, and so on).
 5. Set the sequencer tempo to control how quickly it moves between steps.
 
 Now each step of the sequencer triggers a different sound segment in sequence. This is a direct VCV equivalent of a spliced tape: a series of fragments played end-to-end in a defined order.
