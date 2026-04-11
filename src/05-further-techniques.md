@@ -212,3 +212,7 @@ Take any recording you have made so far and load it into Simpliciter. Using the 
 ### Exercise 25
 
 Play back several of your previous recordings. Load the ones you find most interesting into Simpliciter modules and use the START and END knobs to isolate your favourite segments. Sequence them into an acceptable final version using the TRIG inputs, a step sequencer, or by triggering each Simpliciter manually in order.
+
+### Exercise 26
+
+Construct a Rondo in the form A1, B, A2, C, A3. A1 is a four-layer group of Pseudotones, some processed at changed speeds using the VARISPEED knob. B and C are taken from two different previous recordings: load them into separate Simpliciter modules and use START and END to isolate the segments you want. Sequence the five sections in order: A1, B, A2, C, A3. A2 and A3 are repetitions of A1; you may introduce subtle differences in level if you wish.
