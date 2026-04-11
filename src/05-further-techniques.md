@@ -199,9 +199,11 @@ Precision editing, trimming sounds to the exact millisecond and applying visual 
 
 ### Exercise 23
 
-*(4 minutes)*
+*(30 seconds)*
 
-Record a sound of at least fifteen seconds. Using only Simpliciter's START and END knobs, find five distinct "inner sounds" within that recording — five different segments that each feel like a complete, self-contained sonic event. You do not need to play them in sequence yet. Just identify them and note the approximate START and END positions of each.
+Record a short passage of speech into Simpliciter. Set the VARISPEED knob counterclockwise past zero for reverse playback and reduce the speed further to slow it down. Now inject this loop intermittently into a recording on a second Simpliciter: start and stop the loop playback manually using the TRIG button, or use a gate signal to switch it on and off, leaving gaps of silence between injections. Try to fill those gaps with Mistones recorded into a third Simpliciter.
+
+*This exercise has obvious similarities to previous superimposition work but is in fact a simple form of editing.*
 
 ### Exercise 24
 
