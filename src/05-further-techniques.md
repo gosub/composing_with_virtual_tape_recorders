@@ -230,3 +230,11 @@ Using only a piano to produce Tones and Mistones, employ every technique you hav
 The previous exercise probably resulted in a shapeless design. Repeat it, adding the following conditions: invent a four-sound motive from your single source (for example, a drum-stick on piano strings, a scale run, a thump on the case with the pedal down, a staccato chord). Record it, then develop the motive through constant variation of treatment as described in Exercise 27. Try to exhaust the possibilities, then restate the first few appearances of the motive. The overall effect should start loud, fast and high, sink to an anticlimax, and recover. Edit the final version if not satisfied. This is a difficult and advanced exercise.
 
 *There are reasons why your last two exercises may be the best pieces of music you have produced. They have unity, caused by using only one sound source, and also variety, caused by the different processes applied. Exercise 28 has additional unity based on the classical principles of theme, variation and restatement. Some may find this method gives a result too orthodox to be useful; others may find it better than Exercise 27. Try playing both pieces to several listeners and asking which they prefer. You will discover things about your ability to communicate through music.*
+
+### Patience Is the Best Instrument
+
+Simpliciter can be frustrating, especially if you are used to more modern digital tools. Setting loop points by ear, adjusting START and END without a waveform display, triggering recordings manually: none of this is as immediate as a DAW or a sampler with a polished interface. There will be moments when the tool seems to resist you.
+
+This resistance is not a problem to be solved. In the original tape music studios, splicing was slow, physical, and unforgiving: a cut in the wrong place meant starting again. Composers learned to listen before they cut, to plan before they acted, and to treat the material with patience and attention. That habit of mind produced better music.
+
+Working within Simpliciter's constraints can become something similar: a kind of meditative practice, where the friction between intention and execution slows you down just enough to hear what you are actually doing. The time spent "fighting" the tool is not wasted. It is listening time.
