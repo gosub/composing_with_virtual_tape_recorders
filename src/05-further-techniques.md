@@ -207,6 +207,4 @@ Record a short passage of speech into Simpliciter. Set the VARISPEED knob counte
 
 ### Exercise 24
 
-*(6 minutes)*
-
-Using two Simpliciters, set each one to a different segment of the same or different recordings. Trigger them in alternation using a simple sequencer or by manually pressing their TRIG buttons. Aim for a clean edit point between them — the end of sound A into the beginning of sound B should feel like a deliberate cut, not an accident. Try five different combinations of segments. Which feels most like a composed transition? Which feels most like a collision?
+Take any recording you have made so far and load it into Simpliciter. Using the START and END knobs and the TRIG button as a pause control, produce an edited version of it: let some material through, hold back other parts, vary the order. Is the result plausible as a piece? Now try the same recording at changed speeds. Try it reversed. Are any of these versions more plausible than the original?
