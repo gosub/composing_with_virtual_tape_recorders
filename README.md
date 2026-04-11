@@ -90,7 +90,7 @@ Paragraph-by-paragraph review against Dwyer's original, with corrections and add
 | 2 — Sounds Galore | ✅ Complete |
 | 3 — First Steps | ✅ Complete |
 | 4 — What Are We Aiming At? | ✅ Complete |
-| 5 — Further Techniques | ⬜ Not started |
+| 5 — Further Techniques | ✅ Complete |
 | 6 — Workaday Matters | ⬜ Not started |
 | 7 — Sounds in Space | ⬜ Not started |
 | 8 — Planning Complete Compositions | ⬜ Not started |
@@ -107,6 +107,19 @@ This work is deeply indebted to Terence Dwyer's original book, which deserves fa
 ---
 
 ## Changelog
+
+### v0.6 — 2026-04-11
+- Ch 5 paragraph-by-paragraph review against Dwyer original
+- Remove introductory paragraph (not in Dwyer)
+- Fix VARISPEED knob references, replace NYSTHI Console with ChowTape, replace Chronoblob2 with VCV Delay
+- Fix Simpliciter loop modes (LOOP switch, ping-pong via right-click) and replace FADE with CLICK knob
+- Align Technique E exercises 14-18 to Dwyer original
+- Align Technique F exercises 19-22 to Dwyer original
+- Align Technique G intro to Dwyer (intermittent feed vs cutting)
+- Reframe DAW note: precision editing out of scope, Simpliciter constraints as creative stimulus
+- Align Technique G exercises 23-28 to Dwyer original (adding missing 25-28)
+- Add closing section "Patience Is the Best Instrument"
+- Fix em-dashes throughout
 
 ### v0.5 — 2026-04-04
 - Ch 4 paragraph-by-paragraph review against Dwyer original
