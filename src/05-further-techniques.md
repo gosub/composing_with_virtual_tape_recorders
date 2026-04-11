@@ -128,27 +128,33 @@ The challenge with loops is the join: the point where the END snaps back to STAR
 
 ### Exercise 19
 
-*(3 minutes)*
+*(40 seconds)*
 
-Record a sound of approximately ten seconds. Enable LOOP mode in Simpliciter. Set START to 0 and END to maximum. Let it loop. Now slowly adjust the START knob rightward, narrowing the loop from the beginning. Notice how the character of the loop changes as shorter and shorter sections repeat.
+Record a short steady sound: a recorder note, a bowed cymbal, or paper edge blown between the thumbs. Set a tight loop region in Simpliciter using the START and END knobs to capture just the steady portion. In a second Simpliciter, record a series of short and fading sounds. Mix both through a VCV Mixer: fade the loop in during the middle of the second recording and fade it out again before the end. You can record both elements simultaneously using two Simpliciters and the mixer, or record the second batch separately and combine them with superimposition.
 
 ### Exercise 20
 
-*(4 minutes)*
+*(30 seconds)*
 
-Find a section of your recording that has a relatively stable middle — neither beginning nor ending, just the body of the sound. Set START and END to isolate only this section. Adjust the CLICK knob until the join is smooth. You now have a drone. Let it play for at least sixty seconds. Listen to whether it remains interesting over time.
+Record a rattling sound continuously: a box of matches shaken, or maracas. Loop it in Simpliciter. Now record separately a series of sharply contrasted fading Tones and long Sones into a second Simpliciter. While playing back the second recording, inject the loop into the mix and vary the VARISPEED knob irregularly to change the loop's pitch as it plays. Combine the two into a single final recording. Listen to whether you prefer the result played backwards.
 
 ### Exercise 21
 
-*(4 minutes)*
+*(2 minutes)*
 
-Use ping-pong mode on a short loop (approximately one second). Listen to the back-and-forth motion. Now try the same loop region in forward mode. Compare: does the ping-pong feel more natural, more mechanical, or simply different? Try three different sounds and note which works best in each mode.
+Perform a rhythmic, non-repeating pattern on several percussion instruments or substitutes: hands, feet, boxes, or anything to hand. Record it into Simpliciter and set a loop region long enough to capture the full pattern. Use this as an ostinato background while recording a live improvisation on voice, hands, or any available sound source into a second Simpliciter. Combine the two through the mixer into a final recording. Listen critically to the result. Fill in any weak or silent spots by adding further layers: piano chords, single notes, or any Tone that complements the texture.
 
 ### Exercise 22
 
-*(5 minutes)*
+*(1 minute)*
 
-Build a two-layer composition using only loops. Simpliciter 1 plays a long drone loop; Simpliciter 2 plays a short rhythmic loop. Route both through a mixer. Balance the levels so the rhythmic loop punctuates the drone without overwhelming it. Let the piece run for ninety seconds without touching the controls. Listen back to what you made.
+Construct a ternary piece in three sections:
+
+- **A**: three layers, one of which is a loop. All sounds high and short.
+- **B**: four layers, wide pitch texture, all sounds long.
+- **A**: exactly as before.
+
+"Wide pitch texture" means the four layers should cover sounds from high to low, including intermediate pitches. Some of this may be achieved by VARISPEED changes rather than using different sound sources.
 
 ---
 
