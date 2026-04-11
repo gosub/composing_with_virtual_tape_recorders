@@ -208,3 +208,7 @@ Record a short passage of speech into Simpliciter. Set the VARISPEED knob counte
 ### Exercise 24
 
 Take any recording you have made so far and load it into Simpliciter. Using the START and END knobs and the TRIG button as a pause control, produce an edited version of it: let some material through, hold back other parts, vary the order. Is the result plausible as a piece? Now try the same recording at changed speeds. Try it reversed. Are any of these versions more plausible than the original?
+
+### Exercise 25
+
+Play back several of your previous recordings. Load the ones you find most interesting into Simpliciter modules and use the START and END knobs to isolate your favourite segments. Sequence them into an acceptable final version using the TRIG inputs, a step sequencer, or by triggering each Simpliciter manually in order.
