@@ -91,7 +91,7 @@ Paragraph-by-paragraph review against Dwyer's original, with corrections and add
 | 3 — First Steps | ✅ Complete |
 | 4 — What Are We Aiming At? | ✅ Complete |
 | 5 — Further Techniques | ✅ Complete |
-| 6 — Workaday Matters | ⬜ Not started |
+| 6 — Workaday Matters | ✅ Complete |
 | 7 — Sounds in Space | ⬜ Not started |
 | 8 — Planning Complete Compositions | ⬜ Not started |
 | 9 — Quo Vadis? | ⬜ Not started |
@@ -107,6 +107,15 @@ This work is deeply indebted to Terence Dwyer's original book, which deserves fa
 ---
 
 ## Changelog
+
+### v0.7 — 2026-04-17
+- Ch 6 review against Dwyer original
+- Align Noise section to Dwyer's five-category troubleshooting format
+- Add Distortion section from Dwyer (digital clipping vs deliberate saturation)
+- Merge Saving Your Work into Dwyer-style Storage section
+- Condense CPU, Patch Organisation, Exporting Audio into one brief section
+- Adapt Time Taken from Dwyer, keep non-redundant workflow tips
+- Remove generic intro paragraph, fix stale FADE parameter reference
 
 ### v0.6 — 2026-04-11
 - Ch 5 paragraph-by-paragraph review against Dwyer original
