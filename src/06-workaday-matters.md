@@ -30,17 +30,19 @@ A few practical strategies for keeping CPU use manageable:
 
 **Increase the audio buffer size** if you hear persistent dropouts. Go to **Engine → Audio Settings** and increase the block size from 128 to 256 or 512 samples. This introduces a small amount of latency (the delay between input and output), but it gives VCV more time to compute each buffer and reduces the risk of dropouts. For real-time performance this matters; for studio work where you are recording and listening back, it almost never matters.
 
-## The Noise Floor and Aliasing
+## Noise
 
-Every audio medium has a noise floor — the baseline level of unwanted sound that is always present. On tape this was tape hiss: a constant, soft rushing sound caused by the random magnetic particles on the tape surface. In VCV Rack, the digital noise floor is essentially zero. But digital audio has its own artefacts, and they are worth knowing about.
+You have probably been troubled by unwanted sounds ever since you started the course. Let's look at some typical recordist's noises and what can be done about them. (There is usually an irreducible minimum of background noise in any system. It is a matter of getting the signal/noise ratio to an acceptable level.)
 
-**Aliasing** occurs when a digital signal contains frequencies above half the sample rate (the Nyquist limit). Most commonly in VCV Rack, aliasing appears when you run Simpliciter at very slow speeds — below about 25 percent of normal — because slowing a recording down stretches it in a way that can create high-frequency mirror images of the original signal. These aliases are a kind of digital artefact: they do not correspond to the original sound, and they typically sound harsh and metallic.
+*Hum.* Various causes, mainly to do with faulty or mismatched equipment. Ground loops between your audio interface and computer are the most common culprit: try a different USB port, or a powered USB hub to isolate the interface. Don't overlook the elementary pitfall of having your microphone on the same surface as equipment that vibrates.
 
-Aliasing can be reduced by enabling oversampling on the module (right-click Simpliciter; this option is not always available) or by filtering the output. A simple low-pass filter (the **VCV VCF** module) after Simpliciter, cutting everything above 10kHz, will remove most aliasing artefacts. Set the filter's cutoff frequency by ear — you want it high enough not to dull the sound but low enough to remove the harshness.
+*Extra sounds.* For example, the recordist moving about, or traffic sounds from outside. Four cures: one, record again; two, decide to accept it as sound, especially when processed; three, cover it up by adding another layer; four, hope it won't be noticed.
 
-**Aliasing can also be creative.** The metallic, unstable quality of a heavily aliased signal has been used deliberately in electronic music for decades. If the artefact sounds interesting, use it.
+*Digital noise floor.* Unlike tape hiss, VCV Rack's digital noise floor is essentially zero. However, running Simpliciter at very slow speeds can introduce aliasing: harsh, metallic artefacts caused by frequencies exceeding the Nyquist limit. Cure: keep recording levels as high as possible; use a low-pass filter after Simpliciter when working at extreme speed reductions; or embrace the aliasing as a deliberate effect.
 
-**DC offset** is a separate issue: a constant voltage in the audio signal that sits at 0 Hz and contributes nothing audible but can cause problems in downstream processing and can clip headroom unnecessarily. To remove it, patch your audio through a **DC blocker** before the output. The **VCV DC** module (from the Fundamental pack) does this simply and cheaply in CPU terms.
+*Clicks.* In VCV Rack these most commonly occur at loop join points in Simpliciter, or from abrupt parameter changes while audio is running. The CLICK knob on Simpliciter is a transient smoother specifically for loop join clicks — adjust it by ear. For other clicks, avoid making abrupt cable connections or disconnections while audio is live.
+
+*Fragments of previous recordings.* Simpliciter's audio persists in its .wav file until overwritten. If you reuse a recording slot without clearing it, remnants of old material may appear. The only reliable cure: clear the recording slot before beginning new work.
 
 ## Patch Organisation
 
